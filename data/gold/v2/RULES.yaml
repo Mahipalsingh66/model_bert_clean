@@ -1,25 +1,81 @@
-version: gold_v2
+# version: gold_v2
+
+# labels:
+#   0: Negative
+#   1: Neutral
+#   2: Positive
+
+# hard_rules:
+#   - id: HR_NEG_001
+#     description: Neutral but clear non-delivery
+#     if:
+#       label: 1
+#       contains_any:
+#         - "not received"
+#         - "did not receive"
+#         - "never delivered"
+#         - "parcel missing"
+#     then:
+#       set_label: 0
+
+#   - id: HR_POS_001
+#     description: Neutral but explicit praise
+#     if:
+#       label: 1
+#       contains_any:
+#         - "excellent"
+#         - "very good"
+#         - "happy"
+#         - "satisfied"
+#     then:
+#       set_label: 2
+
+# soft_rules:
+#   - id: SR_MIXED_001
+#     description: Mixed sentiment detected
+#     if:
+#       contains_any:
+#         - "but"
+#         - "however"
+#     then:
+#       flag: MIXED_SENTIMENT
+
+#   - id: SR_SHORT_001
+#     description: Very short text
+#     if:
+#       token_length_lt: 3
+#     then:
+#       flag: TOO_SHORT
+version: gold_v2.1
 
 labels:
   0: Negative
   1: Neutral
   2: Positive
 
+# =========================
+# HARD RULES
+# These rules CHANGE labels
+# =========================
 hard_rules:
   - id: HR_NEG_001
-    description: Neutral but clear non-delivery
+    description: Neutral but clear non-delivery or failure
     if:
       label: 1
       contains_any:
         - "not received"
         - "did not receive"
+        - "never received"
+        - "not delivered"
         - "never delivered"
         - "parcel missing"
+        - "order missing"
+        - "marked delivered but not received"
     then:
       set_label: 0
 
   - id: HR_POS_001
-    description: Neutral but explicit praise
+    description: Neutral but explicit satisfaction or praise
     if:
       label: 1
       contains_any:
@@ -27,22 +83,42 @@ hard_rules:
         - "very good"
         - "happy"
         - "satisfied"
+        - "great service"
+        - "smooth delivery"
     then:
       set_label: 2
 
+
+# =========================
+# SOFT RULES
+# These DO NOT change labels
+# They only add flags
+# =========================
 soft_rules:
   - id: SR_MIXED_001
-    description: Mixed sentiment detected
+    description: Mixed sentiment indicator
     if:
       contains_any:
         - "but"
         - "however"
+        - "although"
     then:
       flag: MIXED_SENTIMENT
 
   - id: SR_SHORT_001
-    description: Very short text
+    description: Very short feedback
     if:
       token_length_lt: 3
     then:
       flag: TOO_SHORT
+
+  - id: SR_INFO_ONLY_001
+    description: Informational or reference-only text
+    if:
+      contains_any:
+        - "awb"
+        - "tracking id"
+        - "reference number"
+        - "order id"
+    then:
+      flag: INFO_ONLY
