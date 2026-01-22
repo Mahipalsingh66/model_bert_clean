@@ -1,0 +1,7 @@
+# Add your project dependencies here
+torch 
+transformers 
+datasets 
+scikit-learn 
+pandas 
+numpy

@@ -1,0 +1,46 @@
+/home/data/Pictures/Screenshots/Screenshot from 2025-12-18 15-49-31.png image
+step aftet that 
+🔴 NOW CREATE PROCESSED DATA (NEXT SMALL STEP)
+
+Once feedback.csv exists, run:
+
+python -c "
+from src.data.cleaner import clean_data
+clean_data(
+    'data/raw/feedback.csv',
+    'data/processed/cleaned.csv'
+)"
+run first "/media/data/7b192233-93d1-41b0-8a9a-4b626a44281a/project_bert/src/data/cleaner.py"
+2nd step  "/media/data/7b192233-93d1-41b0-8a9a-4b626a44281a/project_bert/src/data/splitter.py"
+
+first step = /media/data/7b192233-93d1-41b0-8a9a-4b626a44281a/project_bert/benv/bin/python /media/data/7b192233-93d1-41b0-8a9a-4b626a44281a/project_bert/src/data/cleaner.py
+second step = /media/data/7b192233-93d1-41b0-8a9a-4b626a44281a/project_bert/benv/bin/python /media/data/7b192233-93d1-41b0-8a9a-4b626a44281a/project_bert/src/data/splitter.py
+third step = python - <<EOF
+import pandas as pd
+df = pd.read_csv("data/processed/cleaned.csv")
+print(df.shape)
+print(df.head())
+EOF
+
+fourth step = python - <<EOF
+from scripts.tokenizer import load_tokenizer
+from scripts.dataset import SentimentDataset
+
+tokenizer = load_tokenizer()
+
+dataset = SentimentDataset(
+    csv_path="data/processed/train.csv",
+    tokenizer=tokenizer,
+    max_length=128
+)
+
+print("Total samples:", len(dataset))
+sample = dataset[0]
+print(sample.keys())
+print(sample["input_ids"].shape)
+print(sample["labels"])
+EOF (if it not work )
+
+python -m src.training.train
+
+python -m src.evaluation.metrics
