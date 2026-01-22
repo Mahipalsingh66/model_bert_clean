@@ -1,0 +1,48 @@
+version: gold_v2
+
+labels:
+  0: Negative
+  1: Neutral
+  2: Positive
+
+hard_rules:
+  - id: HR_NEG_001
+    description: Neutral but clear non-delivery
+    if:
+      label: 1
+      contains_any:
+        - "not received"
+        - "did not receive"
+        - "never delivered"
+        - "parcel missing"
+    then:
+      set_label: 0
+
+  - id: HR_POS_001
+    description: Neutral but explicit praise
+    if:
+      label: 1
+      contains_any:
+        - "excellent"
+        - "very good"
+        - "happy"
+        - "satisfied"
+    then:
+      set_label: 2
+
+soft_rules:
+  - id: SR_MIXED_001
+    description: Mixed sentiment detected
+    if:
+      contains_any:
+        - "but"
+        - "however"
+    then:
+      flag: MIXED_SENTIMENT
+
+  - id: SR_SHORT_001
+    description: Very short text
+    if:
+      token_length_lt: 3
+    then:
+      flag: TOO_SHORT

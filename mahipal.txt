@@ -1,0 +1,8 @@
+1. create a data with raw knowledge after that cleaner stage 
+split data with give a name 
+3. train model with robert base now model accuracy is 78 % approx 
+4. now i am adding a rule base approch with gold_v1 thaought 
+5. i create a data gold folder make data whenever i want again i have to apply things ain data raw or processed and also can change
+a folder name and make data 
+6. now yaml file also created and md file cretaed also both file have a rules related things so that our model 
+is not confused in neutral our base model should be clear 

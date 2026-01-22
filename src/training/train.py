@@ -196,7 +196,7 @@ from src.data.loader import SentimentDataset
 MODEL_NAME = "xlm-roberta-base"
 DEVICE = "cpu"  # switch to cuda later
 
-SAVE_DIR = Path("D:/model_bert_copy/models/xlmroberta_gold_v1")
+SAVE_DIR = Path("D:/model_bert_copy/models/xlmroberta_gold_v2")
 
 
 def main():
@@ -209,7 +209,7 @@ def main():
     # Dataset
     # --------------------
     train_dataset = SentimentDataset(
-        csv_path=r"D:/model_bert_copy/data/processed/train.csv",
+        csv_path="D:/model_bert_copy/data/gold/v2_model/train.csv",
         tokenizer=tokenizer,
         max_length=128
     )

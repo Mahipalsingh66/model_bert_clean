@@ -83,7 +83,7 @@ from sklearn.metrics import accuracy_score, f1_score, confusion_matrix, classifi
 from src.features.tokenizer import load_tokenizer
 from src.data.loader import SentimentDataset
 
-MODEL_DIR = "D:/model_bert_copy/models/sentiment_xlmr_v1"
+MODEL_DIR = "D:/model_bert_copy/models/xlmroberta_gold_v1"
 DEVICE = "cpu"
 
 def main():

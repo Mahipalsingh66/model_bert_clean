@@ -1,0 +1,11 @@
+dataset: gold_v1
+task: sentiment
+model_name: xlm-roberta-base
+num_labels: 3
+labels:
+  0: Negative
+  1: Neutral
+  2: Positive
+max_length: 128
+epochs: 3
+loss: CrossEntropy
