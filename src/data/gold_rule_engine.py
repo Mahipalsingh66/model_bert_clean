@@ -68,7 +68,8 @@ def generate_gold_v2(input_csv, rules_yaml, output_csv):
 
 if __name__ == "__main__":
     generate_gold_v2(
-        input_csv="D:/model_bert_copy/data/gold/v2/train.csv",
-        rules_yaml="D:/model_bert_copy/data/gold/v2/RULES.yaml",
-        output_csv="data/gold/v2.1/train.csv"
+        input_csv="D:/model_bert_copy/data/gold/v2.1/train.csv",
+        rules_yaml="D:/model_bert_copy/data/gold/v2.2/RULES.yaml",
+        output_csv="data/gold/v2.2/train.csv"
     )
+

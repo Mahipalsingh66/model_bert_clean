@@ -1,0 +1,184 @@
+version: gold_v2.2
+
+labels:
+  0: Negative
+  1: Neutral
+  2: Positive
+
+# =======================
+# HARD RULES
+# =======================
+
+hard_rules:
+
+  # -------- NEGATIVE : NON DELIVERY / MISSING --------
+  - id: HR_NEG_MISSING
+    description: Missing / not delivered complaints
+    if:
+      label: 1
+      contains_any:
+        - "not received"
+        - "did not receive"
+        - "never received"
+        - "not delivered"
+        - "never delivered"
+        - "parcel missing"
+        - "shipment missing"
+        - "item not received"
+        - "delivery failed"
+        - "order not received"
+        - "didnt receive"
+    then:
+      set_label: 0
+
+  # -------- NEGATIVE : DELAY / LATE --------
+  - id: HR_NEG_DELAY
+    description: Delay and late delivery complaints
+    if:
+      label: 1
+      contains_any:
+        - "delay"
+        - "delayed"
+        - "late"
+        - "very late"
+        - "too late"
+        - "delivery late"
+        - "shipment late"
+        - "not on time"
+        - "slow delivery"
+        - "took long"
+        - "took too long"
+    then:
+      set_label: 0
+
+  # -------- NEGATIVE : DAMAGE / WRONG --------
+  - id: HR_NEG_DAMAGE
+    description: Damage, broken, wrong item
+    if:
+      label: 1
+      contains_any:
+        - "damaged"
+        - "broken"
+        - "tear"
+        - "leak"
+        - "open box"
+        - "box opened"
+        - "wrong item"
+        - "wrong product"
+        - "different item"
+        - "fake"
+        - "fraud"
+    then:
+      set_label: 0
+
+  # -------- NEGATIVE : BEHAVIOR --------
+  - id: HR_NEG_BEHAVIOR
+    description: Rude or bad delivery staff
+    if:
+      label: 1
+      contains_any:
+        - "rude"
+        - "bad behavior"
+        - "misbehave"
+        - "not polite"
+        - "abuse"
+        - "argue"
+        - "worst staff"
+        - "unprofessional"
+    then:
+      set_label: 0
+
+  # -------- POSITIVE : STRONG PRAISE --------
+  - id: HR_POS_STRONG
+    description: Strong positive feedback
+    if:
+      label: 1
+      contains_any:
+        - "excellent"
+        - "awesome"
+        - "fantastic"
+        - "outstanding"
+        - "superb"
+        - "perfect"
+        - "amazing"
+        - "best service"
+    then:
+      set_label: 2
+
+  # -------- POSITIVE : SOFT PRAISE --------
+  - id: HR_POS_SOFT
+    description: Soft positive feedback
+    if:
+      label: 1
+      contains_any:
+        - "good"
+        - "very good"
+        - "nice"
+        - "fine"
+        - "happy"
+        - "satisfied"
+        - "thank you"
+        - "thanks"
+        - "polite"
+        - "helpful"
+        - "professional"
+        - "on time"
+        - "fast delivery"
+        - "quick delivery"
+    then:
+      set_label: 2
+
+  # -------- FORCE TRUE NEUTRAL (PROTECT STATUS TEXTS) --------
+  - id: HR_NEU_STATUS
+    description: Pure tracking / system messages
+    if:
+      contains_any:
+        - "out for delivery"
+        - "in transit"
+        - "delivered"
+        - "shipment"
+        - "tracking"
+        - "awb"
+        - "order id"
+        - "pickup"
+        - "hub"
+        - "warehouse"
+        - "dispatch"
+    then:
+      set_label: 1
+
+
+# =======================
+# SOFT RULES (FLAGS ONLY)
+# =======================
+
+soft_rules:
+
+  - id: SR_MIXED
+    description: Mixed sentiment
+    if:
+      contains_any:
+        - "but"
+        - "however"
+        - "although"
+    then:
+      flag: MIXED_SENTIMENT
+
+  - id: SR_SHORT
+    description: Very short feedback
+    if:
+      token_length_lt: 3
+    then:
+      flag: TOO_SHORT
+
+  - id: SR_REQUEST
+    description: Request type feedback
+    if:
+      contains_any:
+        - "call me"
+        - "please contact"
+        - "share number"
+        - "phone number"
+        - "contact delivery"
+    then:
+      flag: REQUEST_TYPE
