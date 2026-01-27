@@ -1,0 +1,651 @@
+# ============================================================
+# GOLDEN DATASET RULE ENGINE — ENTERPRISE EDITION
+# Version      : Gold_v2.3
+# Labels       : 0 = Negative | 1 = Neutral | 2 = Positive
+# Domains      : Logistics, Banking, Customer Service
+# Objective   : High-purity supervision + Neutral stabilization
+# ============================================================
+
+metadata:
+  version: "2.3"
+  owner: "Mahipal Singh"
+  created: "2026-01-23"
+  description: "Enterprise deterministic labeling rules for multi-domain sentiment supervision"
+  priority_order:
+    - HARD_NEGATIVE
+    - HARD_POSITIVE
+    - STRONG_NEGATIVE
+    - STRONG_POSITIVE
+    - NEUTRAL_OVERRIDE
+    - MIXED_SENTIMENT
+    - SOFT_SENTIMENT
+    - DOMAIN_HEURISTICS
+    - FALLBACK
+
+# ------------------------------------------------------------
+# NORMALIZATION PIPELINE
+# ------------------------------------------------------------
+normalization:
+  lowercase: true
+  remove_punctuation: true
+  normalize_whitespace: true
+  replace_patterns:
+    - pattern: "\\n|\\r"
+      replace: " "
+    - pattern: "[0-9]{6,}"
+      replace: "<NUMBER>"
+    - pattern: "₹|rs\\.?|inr"
+      replace: "<MONEY>"
+
+# ------------------------------------------------------------
+# FLAG DEFINITIONS (FOR AUDIT & MODEL FEATURES)
+# ------------------------------------------------------------
+flags_definition:
+  DELIVERY: "Delivery / shipment related"
+  PAYMENT: "Payment / refund / charge related"
+  SERVICE: "Customer support / agent related"
+  PRAISE: "Explicit praise / gratitude"
+  COMPLAINT: "Explicit dissatisfaction"
+  DELAY: "Delay / pending / waiting"
+  FRAUD: "Fraud / scam / unauthorized"
+  QUERY: "Pure informational query"
+  SYSTEM: "System generated / template"
+  MIXED: "Positive and negative both present"
+  URGENT: "Escalation / urgency"
+  ACCOUNT: "Account / card / UPI related"
+
+# ============================================================
+# HARD NEGATIVE — ABSOLUTE NEGATIVE (NO OVERRIDE)
+# ============================================================
+
+hard_negative:
+  - id: HN001
+    label: 0
+    priority: 1
+    flags: [DELIVERY, COMPLAINT]
+    patterns:
+      - "not delivered"
+      - "never delivered"
+      - "delivery failed"
+      - "package missing"
+      - "lost my parcel"
+      - "courier lost"
+    rule_applied: "hard_negative_delivery_failure"
+
+  - id: HN002
+    label: 0
+    priority: 1
+    flags: [PAYMENT, FRAUD]
+    patterns:
+      - "fraud"
+      - "scam"
+      - "unauthorized transaction"
+      - "money stolen"
+      - "charged without consent"
+      - "hacked account"
+    rule_applied: "hard_negative_fraud"
+
+  - id: HN003
+    label: 0
+    priority: 1
+    flags: [SERVICE, COMPLAINT]
+    patterns:
+      - "worst service"
+      - "pathetic service"
+      - "very bad experience"
+      - "extremely disappointed"
+      - "never use again"
+      - "unacceptable service"
+    rule_applied: "hard_negative_service"
+
+# ============================================================
+# HARD POSITIVE — ABSOLUTE POSITIVE (NO OVERRIDE)
+# ============================================================
+
+hard_positive:
+  - id: HP001
+    label: 2
+    priority: 2
+    flags: [PRAISE]
+    patterns:
+      - "excellent service"
+      - "outstanding service"
+      - "very satisfied"
+      - "highly recommend"
+      - "best experience"
+    rule_applied: "hard_positive_praise"
+
+  - id: HP002
+    label: 2
+    priority: 2
+    flags: [SERVICE, PRAISE]
+    patterns:
+      - "thank you so much"
+      - "appreciate your support"
+      - "great job team"
+      - "fantastic support"
+    rule_applied: "hard_positive_gratitude"
+
+# ============================================================
+# STRONG NEGATIVE — HIGH CONFIDENCE NEGATIVE
+# ============================================================
+
+strong_negative:
+  - id: SN001
+    label: 0
+    priority: 3
+    flags: [DELAY, COMPLAINT]
+    patterns:
+      - "still waiting"
+      - "pending since"
+      - "no update from"
+      - "delayed by"
+      - "taking too long"
+    rule_applied: "strong_negative_delay"
+
+  - id: SN002
+    label: 0
+    priority: 3
+    flags: [PAYMENT, COMPLAINT]
+    patterns:
+      - "refund not received"
+      - "amount deducted"
+      - "payment failed"
+      - "wrong charge"
+      - "double charged"
+    rule_applied: "strong_negative_payment"
+
+  - id: SN003
+    label: 0
+    priority: 3
+    flags: [ACCOUNT, COMPLAINT]
+    patterns:
+      - "account blocked"
+      - "card not working"
+      - "upi failed"
+      - "login not working"
+    rule_applied: "strong_negative_account"
+
+# ============================================================
+# STRONG POSITIVE — HIGH CONFIDENCE POSITIVE
+# ============================================================
+
+strong_positive:
+  - id: SP001
+    label: 2
+    priority: 4
+    flags: [DELIVERY, PRAISE]
+    patterns:
+      - "on time delivery"
+      - "delivered early"
+      - "quick delivery"
+      - "fast shipping"
+    rule_applied: "strong_positive_delivery"
+
+  - id: SP002
+    label: 2
+    priority: 4
+    flags: [SERVICE, PRAISE]
+    patterns:
+      - "support was helpful"
+      - "agent resolved quickly"
+      - "issue fixed fast"
+      - "good assistance"
+    rule_applied: "strong_positive_service"
+
+# ============================================================
+# NEUTRAL OVERRIDE — FORCE NEUTRAL (CRITICAL FOR MODEL)
+# ============================================================
+
+neutral_override:
+  - id: NO001
+    label: 1
+    priority: 5
+    flags: [QUERY]
+    patterns:
+      - "where is my order"
+      - "what is the status"
+      - "tracking number"
+      - "please update"
+      - "need information"
+      - "how to"
+      - "when will"
+    rule_applied: "neutral_query"
+
+  - id: NO002
+    label: 1
+    priority: 5
+    flags: [SYSTEM]
+    patterns:
+      - "do not reply"
+      - "this is an automated message"
+      - "ticket created"
+      - "case registered"
+      - "reference number"
+    rule_applied: "neutral_system_message"
+
+# ============================================================
+# MIXED SENTIMENT — COLLAPSE TO NEUTRAL
+# ============================================================
+
+mixed_sentiment:
+  - id: MS001
+    label: 1
+    priority: 6
+    flags: [MIXED]
+    patterns:
+      - "late but helpful"
+      - "issue resolved but slow"
+      - "problem fixed however"
+      - "service good but delayed"
+    rule_applied: "mixed_to_neutral"
+
+# ============================================================
+# SOFT SENTIMENT — WEAK SIGNALS
+# ============================================================
+
+soft_sentiment:
+  - id: SS001
+    label: 0
+    priority: 7
+    flags: [COMPLAINT]
+    patterns:
+      - "not happy"
+      - "could be better"
+      - "average service"
+      - "not satisfied"
+      - "ok but slow"
+    rule_applied: "soft_negative"
+
+  - id: SS002
+    label: 2
+    priority: 7
+    flags: [PRAISE]
+    patterns:
+      - "good service"
+      - "nice experience"
+      - "happy with service"
+      - "works fine"
+    rule_applied: "soft_positive"
+
+# ============================================================
+# DOMAIN HEURISTICS — LOGISTICS
+# ============================================================
+
+domain_logistics:
+  - id: DL001
+    label: 0
+    priority: 8
+    flags: [DELIVERY, DELAY]
+    patterns:
+      - "stuck at hub"
+      - "held at facility"
+      - "out for delivery since"
+      - "no movement"
+    rule_applied: "logistics_delay"
+
+  - id: DL002
+    label: 2
+    priority: 8
+    flags: [DELIVERY, PRAISE]
+    patterns:
+      - "delivery boy polite"
+      - "courier helpful"
+      - "professional delivery"
+    rule_applied: "logistics_positive_staff"
+
+# ============================================================
+# DOMAIN HEURISTICS — BANKING
+# ============================================================
+
+domain_banking:
+  - id: DB001
+    label: 0
+    priority: 8
+    flags: [ACCOUNT, COMPLAINT]
+    patterns:
+      - "balance wrong"
+      - "statement incorrect"
+      - "limit blocked"
+      - "chargeback pending"
+    rule_applied: "banking_issue"
+
+  - id: DB002
+    label: 2
+    priority: 8
+    flags: [SERVICE, PRAISE]
+    patterns:
+      - "bank resolved issue"
+      - "relationship manager helpful"
+      - "quick resolution by bank"
+    rule_applied: "banking_positive_service"
+
+# ============================================================
+# FALLBACK — DEFAULT NEUTRAL
+# ============================================================
+
+fallback:
+  - id: FB001
+    label: 1
+    priority: 9
+    flags: []
+    patterns:
+      - ".*"
+    rule_applied: "fallback_neutral"
+
+# ============================================================
+# CONFLICT RESOLUTION POLICY
+# ============================================================
+
+conflict_resolution:
+  strategy: "lowest_priority_number_wins"
+  allow_neutral_override: true
+  block_soft_if_hard_exists: true
+  block_domain_if_strong_exists: true
+
+# ============================================================
+# OUTPUT SCHEMA (FOR EACH RECORD)
+# ============================================================
+
+output_schema:
+  - text
+  - original_label
+  - final_label
+  - rule_id
+  - rule_applied
+  - priority
+  - flags
+
+# # ============================================================
+# # END OF GOLD_v2.3 RULESET — PRODUCTION CANDIDATE
+# # ============================================================
+# # ============================================================
+# # GOLDEN DATASET RULES — ENTERPRISE FINAL
+# # Version : Gold_v2.3 FINAL
+# # Labels  : 0 = Negative | 1 = Neutral | 2 = Positive
+# # Purpose : Weak supervision correction + Neutral stabilization
+# # ============================================================
+
+# metadata:
+#   version: "2.3"
+#   owner: "Mahipal Singh"
+#   description: "Final enterprise weak-supervision rules for sentiment"
+#   priority_order:
+#     - hard_negative
+#     - hard_positive
+#     - strong_negative
+#     - strong_positive
+#     - neutral_override
+#     - mixed_sentiment
+#     - domain_banking
+#     - domain_logistics
+#     - soft_sentiment
+#     - fallback
+
+# # ------------------------------------------------------------
+# # NORMALIZATION
+# # ------------------------------------------------------------
+# normalization:
+#   lowercase: true
+#   remove_punctuation: true
+#   normalize_whitespace: true
+#   replace_patterns:
+#     - pattern: "\\n|\\r"
+#       replace: " "
+#     - pattern: "[0-9]{6,}"
+#       replace: "<NUMBER>"
+#     - pattern: "₹|rs\\.?|inr"
+#       replace: "<MONEY>"
+
+# # ============================================================
+# # HARD NEGATIVE — ALWAYS OVERRIDE (RARE, HIGH CONFIDENCE)
+# # ============================================================
+
+# hard_negative:
+#   - id: HN001
+#     label: 0
+#     priority: 1
+#     flags: [DELIVERY, COMPLAINT]
+#     patterns:
+#       - "not delivered"
+#       - "never delivered"
+#       - "package missing"
+#       - "lost my parcel"
+#       - "courier lost"
+#     rule_applied: "hard_negative_delivery_loss"
+
+#   - id: HN002
+#     label: 0
+#     priority: 1
+#     flags: [FRAUD, PAYMENT]
+#     patterns:
+#       - "fraud"
+#       - "scam"
+#       - "unauthorized transaction"
+#       - "money stolen"
+#       - "charged without consent"
+#     rule_applied: "hard_negative_fraud"
+
+# # ============================================================
+# # HARD POSITIVE — ALWAYS OVERRIDE (RARE)
+# # ============================================================
+
+# hard_positive:
+#   - id: HP001
+#     label: 2
+#     priority: 2
+#     flags: [PRAISE]
+#     patterns:
+#       - "excellent service"
+#       - "outstanding service"
+#       - "highly recommend"
+#       - "best experience"
+#     rule_applied: "hard_positive_praise"
+
+# # ============================================================
+# # STRONG NEGATIVE — OVERRIDE (IMPORTANT FOR NEUTRAL FIX)
+# # ============================================================
+
+# strong_negative:
+#   - id: SN001
+#     label: 0
+#     priority: 3
+#     flags: [DELAY, COMPLAINT]
+#     patterns:
+#       - "still waiting"
+#       - "pending since"
+#       - "no update from"
+#       - "taking too long"
+#     rule_applied: "strong_negative_delay"
+
+#   - id: SN002
+#     label: 0
+#     priority: 3
+#     flags: [PAYMENT, COMPLAINT]
+#     patterns:
+#       - "refund not received"
+#       - "amount deducted"
+#       - "wrong charge"
+#       - "double charged"
+#     rule_applied: "strong_negative_payment"
+
+#   - id: SN003
+#     label: 0
+#     priority: 3
+#     flags: [ACCOUNT, COMPLAINT]
+#     patterns:
+#       - "account blocked"
+#       - "card not working"
+#       - "upi failed"
+#     rule_applied: "strong_negative_account"
+
+# # ============================================================
+# # STRONG POSITIVE — OVERRIDE
+# # ============================================================
+
+# strong_positive:
+#   - id: SP001
+#     label: 2
+#     priority: 4
+#     flags: [DELIVERY, PRAISE]
+#     patterns:
+#       - "on time delivery"
+#       - "delivered early"
+#       - "quick delivery"
+#       - "fast shipping"
+#     rule_applied: "strong_positive_delivery"
+
+#   - id: SP002
+#     label: 2
+#     priority: 4
+#     flags: [SERVICE, PRAISE]
+#     patterns:
+#       - "support was helpful"
+#       - "agent resolved quickly"
+#       - "issue fixed fast"
+#     rule_applied: "strong_positive_service"
+
+# # ============================================================
+# # NEUTRAL OVERRIDE — FORCE NEUTRAL (CRITICAL FOR YOUR MODEL)
+# # ============================================================
+
+# neutral_override:
+#   - id: NO001
+#     label: 1
+#     priority: 5
+#     flags: [QUERY]
+#     patterns:
+#       - "where is my order"
+#       - "what is the status"
+#       - "tracking number"
+#       - "please update"
+#       - "need information"
+#       - "how to"
+#       - "when will"
+#     rule_applied: "neutral_query"
+
+#   - id: NO002
+#     label: 1
+#     priority: 5
+#     flags: [SYSTEM]
+#     patterns:
+#       - "do not reply"
+#       - "this is an automated message"
+#       - "ticket created"
+#       - "case registered"
+#       - "reference number"
+#     rule_applied: "neutral_system"
+
+# # ============================================================
+# # MIXED SENTIMENT — COLLAPSE TO NEUTRAL (IMPORTANT)
+# # ============================================================
+
+# mixed_sentiment:
+#   - id: MS001
+#     label: 1
+#     priority: 6
+#     flags: [MIXED]
+#     patterns:
+#       - "late but helpful"
+#       - "issue fixed but slow"
+#       - "good but delayed"
+#       - "service ok but late"
+#     rule_applied: "mixed_to_neutral"
+
+# # ============================================================
+# # DOMAIN HEURISTICS — BANKING (OVERRIDE ALLOWED)
+# # ============================================================
+
+# domain_banking:
+#   - id: DB001
+#     label: 0
+#     priority: 7
+#     flags: [ACCOUNT, COMPLAINT]
+#     patterns:
+#       - "transaction failed"
+#       - "upi not working"
+#       - "balance wrong"
+#       - "statement incorrect"
+#     rule_applied: "banking_failure"
+
+# # ============================================================
+# # DOMAIN HEURISTICS — LOGISTICS (OVERRIDE ALLOWED)
+# # ============================================================
+
+# domain_logistics:
+#   - id: DL001
+#     label: 0
+#     priority: 7
+#     flags: [DELIVERY, DELAY]
+#     patterns:
+#       - "stuck at hub"
+#       - "held at facility"
+#       - "out for delivery since"
+#       - "no movement"
+#     rule_applied: "logistics_delay"
+
+# # ============================================================
+# # SOFT SENTIMENT — FLAG ONLY (NEVER OVERRIDE)
+# # ============================================================
+
+# soft_sentiment:
+#   - id: SS001
+#     label: 0
+#     priority: 8
+#     flags: [COMPLAINT]
+#     patterns:
+#       - "not happy"
+#       - "could be better"
+#       - "average service"
+#       - "not satisfied"
+#     rule_applied: "soft_negative"
+
+#   - id: SS002
+#     label: 2
+#     priority: 8
+#     flags: [PRAISE]
+#     patterns:
+#       - "good service"
+#       - "nice experience"
+#       - "happy with service"
+#     rule_applied: "soft_positive"
+
+# # ============================================================
+# # FALLBACK — NEVER OVERRIDE
+# # ============================================================
+
+# fallback:
+#   - id: FB001
+#     label: 1
+#     priority: 99
+#     flags: []
+#     patterns:
+#       - ".*"
+#     rule_applied: "fallback"
+
+# # ============================================================
+# # CONFLICT RESOLUTION
+# # ============================================================
+
+# conflict_resolution:
+#   strategy: "lowest_priority_number_wins"
+#   allow_neutral_override: true
+#   block_soft_if_hard_exists: true
+#   block_domain_if_strong_exists: true
+
+# # ============================================================
+# # OUTPUT SCHEMA
+# # ============================================================
+
+# output_schema:
+#   - text
+#   - original_label
+#   - final_label
+#   - rule_id
+#   - rule_applied
+#   - priority
+#   - flags
+
+# # ============================================================
+# # END — GOLD_v2.3 FINAL ENTERPRISE RULESET
+# # ============================================================

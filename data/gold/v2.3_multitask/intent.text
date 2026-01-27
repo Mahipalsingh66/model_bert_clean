@@ -1,0 +1,12 @@
+customer_intent:
+0 = Complaint
+1 = Inquiry
+2 = Praise
+
+
+primary_aspect
+0 = Delivery  
+1 = Tracking  
+2 = Behaviour  
+3 = Support  
+4 = Pricing  

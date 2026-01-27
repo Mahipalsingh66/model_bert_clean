@@ -38,7 +38,7 @@ session = sagemaker.Session()
 estimator = PyTorch(
     entry_point="train_sagemaker.py",
 
-    # VERY IMPORTANT: use forward slashes
+    # Upload only this folder
     source_dir="D:/model_bert_copy/src/sagemaker",
 
     role=role,
@@ -50,14 +50,15 @@ estimator = PyTorch(
 
     output_path=f"s3://{bucket}/models/",
 
-    # COST & STABILITY CONTROL (VERY IMPORTANT)
-    disable_profiler=True,          # saves money
-    debugger_hook_config=False,     # saves money
+    # Cost control
+    disable_profiler=True,
+    debugger_hook_config=False,
 
     sagemaker_session=session
 )
 
+# 🔥 v2.2 DATA
 estimator.fit({
-    "train": f"s3://{bucket}/gold/v2.1/train.csv",
-    "val":   f"s3://{bucket}/gold/v2.1/val.csv"
+    "train": f"s3://{bucket}/gold/v2.2/train.csv",
+    "val":   f"s3://{bucket}/gold/v2.2/val.csv"
 })
