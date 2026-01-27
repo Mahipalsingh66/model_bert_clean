@@ -6,3 +6,16 @@ split data with give a name
 a folder name and make data 
 6. now yaml file also created and md file cretaed also both file have a rules related things so that our model 
 is not confused in neutral our base model should be clear 
+
+
+
+
+1. Recommended Columns (With Meaning)
+Column	What it Represents	How to Label
+text	Raw customer feedback	As-is (no cleaning)
+sentiment	Language tone only	Positive / Neutral / Negative
+primary_aspect	Main issue area	Delivery / Behaviour / Support / Pricing
+aspect_sentiment	Sentiment of that aspect	Positive / Neutral / Negative
+customer_intent	Why customer wrote	Complaint / Inquiry / Praise
+emotion	Emotional tone (optional but useful)	Calm / Frustrated / Angry
+satisfaction	Business outcome	Low / Medium / High

@@ -1,5 +1,5 @@
 text,sentiment,customer_intent,primary_aspect,aspect_flag
-delivery executive handed card to unknown maid,0,0,1,wrong_delivery
+delivery executive handed card to unknown maid,0,0,4,fallback_support
 not require excellent service,1,2,4,fallback_support
 didnt receive product,0,0,4,fallback_support
 order delivered to wrong address,0,0,1,wrong_delivery
@@ -9,7 +9,7 @@ he didnt deliver doorstep,1,1,4,fallback_support
 way of talk so arrogant of delivery boy he not able listen customer detailsaddress while deliver product,0,0,4,fallback_support
 great work good job,2,2,4,fallback_support
 order late but service okay,1,0,0,delay
-delivery done to someone else without intimation,1,1,1,wrong_delivery
+delivery done to someone else without intimation,1,1,4,fallback_support
 repeated late delivery despite work from home presence,1,0,0,delay
 service needs improvement,1,1,4,fallback_support
 IDFC bank account opening very good facility,1,2,4,fallback_support
@@ -20,7 +20,7 @@ delivery agent rude and misbehaved with colleague,0,0,3,behaviour
 delivery agent mark delivery without even attempt till time escalate they didnt have any intention delivery,0,0,0,delay
 extremely poor service never want bluedart again,0,0,4,fallback_support
 kyc failure account frozen poor response,0,0,4,fallback_support
-not delivered on time,1,0,4,fallback_support
+not delivered on time,1,0,0,delay
 delivery agent called but marked not home incorrectly,1,1,4,support
 completely different saree received,1,1,4,fallback_support
 best service on time service,2,2,4,fallback_support
@@ -52,13 +52,13 @@ delivery person rude not polite,0,0,3,behaviour
 delivery in time,1,1,4,fallback_support
 rewari bluedart service very bad village delivery refused,0,0,4,fallback_support
 message shows delivered but not received,0,0,2,damage_lost
-delivery boy asked extra payment not acceptable,1,1,6,pricing
+delivery boy asked extra payment not acceptable,1,1,4,fallback_support
 parcel not received but status shows delivered,0,0,2,damage_lost
 poor delivery service no contact details and no support,0,0,4,support
 received only partial offer product,1,1,4,fallback_support
 very bad service overall,0,0,4,fallback_support
 no issue,1,0,4,fallback_support
-order not delivered yet,0,0,4,fallback_support
+order not delivered yet,0,0,0,delay
 not good wrong product,0,0,4,fallback_support
 delivery person polite cooperative,1,1,4,fallback_support
 product not received,0,0,2,damage_lost
@@ -69,11 +69,11 @@ no major feedback,1,1,6,pricing
 deliver on time,2,2,4,fallback_support
 good person,2,2,4,fallback_support
 delivery agent should wait after ringing bell,1,1,4,fallback_support
-Please provide the delivery boy number to know delivery status,1,1,5,tracking
+Please provide the delivery boy number to know delivery status,1,1,4,fallback_support
 idfc first bank is very good bank,2,2,4,fallback_support
 bad experience delivery agent behaved badly,0,0,4,fallback_support
 More transparency about the offer and reflecting same on the screen. No where it is mentioned about non compliance of offer. Not sure whether offer is valid and applied ,1,1,4,fallback_support
-delivery agent did not call or ask otp,0,0,4,support
+delivery agent did not call or ask otp,0,0,3,behaviour
 parcel handed to security without informing customer,1,1,4,fallback_support
 wrong shipment deliver,0,0,4,fallback_support
 delivery delayed by one day though reached hub earlier,1,0,0,delay
@@ -81,16 +81,16 @@ cancel my order,1,1,4,fallback_support
 late night delivery inconvenience,0,0,0,delay
 transaction error message should be corrected,1,1,4,fallback_support
 delivery agent refused to come upstairs,1,1,4,fallback_support
-no shipment delivered please update,0,0,5,tracking
+no shipment delivered please update,0,0,4,fallback_support
 same as today,1,1,4,fallback_support
-return request product,1,1,4,fallback_support
+return request product,1,1,7,refund
 full delivery not receive one item missing,0,0,2,damage_lost
 delivery forgotten item issue,1,0,4,fallback_support
 didnt receive on time very poor service,0,0,4,fallback_support
-bank unfair treatment complaint,0,0,4,fallback_support
-update caller id with bluedart name,1,1,5,tracking
+bank unfair treatment complaint,0,0,4,support
+update caller id with bluedart name,1,1,4,support
 it take day deliver item,1,1,4,fallback_support
-empty box received,1,1,4,fallback_support
+empty box received,1,1,2,damage_lost
 havent received my product delivery agent number not available very expensive item,0,0,4,fallback_support
 very very very bad service not deliver my home,0,0,4,fallback_support
 T,1,1,4,fallback_support
@@ -106,7 +106,7 @@ product not deliver,0,0,4,fallback_support
 delivery partner useless keeps item daily out for delivery,0,0,4,fallback_support
 document delivered to wrong person via otp,1,0,1,wrong_delivery
 not deliver properly,0,0,4,fallback_support
-delivery not attempted despite complaints,1,1,4,fallback_support
+delivery not attempted despite complaints,1,1,0,delay
 courier not receive,0,0,4,fallback_support
 home delivery unavailable forced other village pickup,1,1,4,fallback_support
 delivery partner very rude,0,0,3,behaviour
@@ -122,8 +122,8 @@ delivery fast,2,2,4,fallback_support
 rate pant finishing poor,1,1,4,fallback_support
 very bad service,0,0,4,fallback_support
 order in that didnt order taste so bad really waste my money hate this chocolate anybody order in this website suggest them dont order,0,0,0,delay
-number wrongly updated in company system,1,0,5,tracking
-parcel still not delivered,0,0,0,delay
+number wrongly updated in company system,1,0,4,fallback_support
+parcel still not delivered,0,0,4,fallback_support
 delivery delay refund requested,1,0,0,delay
 happy with the service,2,2,4,fallback_support
 packing damaged,1,0,2,damage_lost
@@ -134,7 +134,7 @@ fast good delivery,2,2,4,fallback_support
 service not regular delivery delayed,1,0,0,delay
 name incorrect on receipt needs accuracy,1,1,4,fallback_support
 great delivery service,2,2,4,fallback_support
-please update mogappair west office address on website,1,1,5,tracking
+please update mogappair west office address on website,1,1,4,fallback_support
 otp system needed for secure delivery,1,1,4,fallback_support
 worst service ever,0,0,4,fallback_support
 delivery person rude refused to wait,0,0,3,behaviour
@@ -142,7 +142,7 @@ available at home but marked unavailable by local team,1,1,4,fallback_support
 nothing delivered yet,1,1,4,fallback_support
 agent lied about savings account benefits fraud,0,0,4,fallback_support
 cannot receive parcel yet,1,1,4,fallback_support
-status transparency requested,1,1,5,tracking
+status transparency requested,1,1,4,fallback_support
 delivery agent did not come and office responded rudely,0,0,3,behaviour
 not get any product or check but they show deleverd didnt get any document,1,1,4,fallback_support
 product not received,1,1,2,damage_lost
@@ -151,10 +151,10 @@ wrong information regard delivery late delivery,0,0,0,delay
 delivered but wrong number mentioned,1,0,4,fallback_support
 delivery boy poor language,0,0,4,fallback_support
 delivery date not shared clearly,1,2,4,fallback_support
-delivery staff not accepting online payment,1,1,6,pricing
+delivery staff not accepting online payment,1,1,4,fallback_support
 service very poor collected from office,0,0,4,fallback_support
 bad service rude delivery boy,0,0,3,behaviour
-delivered to unknown person,0,0,1,wrong_delivery
+delivered to unknown person,0,0,4,fallback_support
 very fast service by blue dart,2,2,4,fallback_support
 delivery should be faster,1,1,4,fallback_support
 nice job,2,2,4,fallback_support
@@ -163,7 +163,7 @@ everything fine currently,2,2,4,fallback_support
 do not give otp without otp how can you say that recieved my courier your agent even do nt ask for otp how can ypur company give courier any one without confirm any identity or otp,0,0,4,fallback_support
 It was a wonderful experience,2,2,4,fallback_support
 too much repeated information given,1,1,4,fallback_support
-forced to pick from office wrong status shown,0,0,5,tracking
+forced to pick from office wrong status shown,0,0,4,fallback_support
 parcel come in damage condition,1,0,2,damage_lost
 parcel damaged delivery agent refused return,0,0,2,damage_lost
 extreme poor delivery service address known still delayed,0,0,0,delay
@@ -186,7 +186,7 @@ delivery update came very late,0,0,0,delay
 false delivery reports,0,0,4,fallback_support
 delivery delay explanation requested overall positive,2,0,0,delay
 ordered two jackets received one,1,1,4,fallback_support
-not contacted before delivery unclear handover,1,2,4,fallback_support
+not contacted before delivery unclear handover,1,2,3,behaviour
 after day recieved hub near mei pick up parcel after hour stand there at your hub,1,1,4,fallback_support
 delivery agent refused doorstep delivery,0,0,4,fallback_support
 even after guide about address he instruct me stand outside my home till he arrive,1,1,4,fallback_support
@@ -197,12 +197,12 @@ very bad product ordered JBL received used Boat item,0,0,4,fallback_support
 already service good,2,2,4,fallback_support
 received order two days late,0,0,0,delay
 wrong product deliver,0,0,4,fallback_support
-agent delivered after complaint and made false delivery updates,0,0,5,tracking
+agent delivered after complaint and made false delivery updates,0,0,4,support
 no important need,1,1,4,fallback_support
 order delayed otp taken for refusal,1,0,0,delay
 delivery man didnt come back on time,0,0,4,fallback_support
 service smooth person who deliver shipment very humble polite,2,2,4,fallback_support
-he say call by customer name at home this not good attitude,0,0,3,behaviour
+he say call by customer name at home this not good attitude,0,0,4,support
 not receive my order,0,0,4,fallback_support
 received wrong product,0,0,4,fallback_support
 not delivered,1,0,4,fallback_support
@@ -211,7 +211,7 @@ good but not upto mark,1,2,4,fallback_support
 delivery smooth and timely thank you,2,2,4,fallback_support
 main rain same,1,1,4,fallback_support
 1,1,1,4,fallback_support
-not delivered but status shows delivered,0,0,5,tracking
+not delivered but status shows delivered,0,0,4,fallback_support
 potronics product service poor,0,0,4,fallback_support
 very pathetic service from local delivery partner,0,0,4,fallback_support
 did not receive order due to price issue,0,0,2,damage_lost
@@ -254,21 +254,21 @@ delivery boy nature good,1,2,4,fallback_support
 you do well,2,2,4,fallback_support
 very nice,2,2,4,fallback_support
 gooo wo,1,1,4,fallback_support
-missing product in order,1,0,2,damage_lost
+missing product in order,1,0,4,fallback_support
 delivery too late refund not received,0,0,2,damage_lost
 network error message needs fix,1,1,4,fallback_support
 item missing in parcel,1,0,2,damage_lost
 courier misdelivered to wrong address urgent issue,0,0,1,wrong_delivery
 forced to spend money to collect parcel,0,0,4,fallback_support
 tracking problem,1,0,5,tracking
-delivery person left parcel with building security without contacting me,0,0,4,fallback_support
+delivery person left parcel with building security without contacting me,0,0,4,support
 delivery experience not improved disappointed,0,0,4,fallback_support
-status marked consignee unavailable without attempt,0,0,5,tracking
+status marked consignee unavailable without attempt,0,0,4,fallback_support
 bad product,1,0,4,fallback_support
 please deliver on time or day late okay but delay by day,1,0,0,delay
 delivery executive very kind service excellent,2,2,4,fallback_support
-package stolen and parcel tampered,0,0,4,fallback_support
-return option missing,1,0,2,damage_lost
+package stolen and parcel tampered,0,0,2,damage_lost
+return option missing,1,0,7,refund
 abusive language,0,0,4,fallback_support
 delivery delayed after repeated follow up,0,0,0,delay
 improve delivery time,1,1,4,fallback_support
@@ -280,28 +280,28 @@ parcel not delivered timely,0,0,4,fallback_support
 not delivered any product,0,0,4,fallback_support
 order not delivered but marked delivered,0,0,4,fallback_support
 late delivery,0,0,0,delay
-delivery to someone else demand draft missing,1,0,2,damage_lost
+delivery to someone else demand draft missing,1,0,4,fallback_support
 very fast,1,1,4,fallback_support
 bakwaas deepak mujhe call nahi karta hai pata nahi kaha deliver kar deta hai,1,1,4,support
 system used old address issue,1,0,4,fallback_support
 thank you bluedart delivery agent,2,2,4,fallback_support
-better delivery updates required,1,1,5,tracking
+better delivery updates required,1,1,4,fallback_support
 delay sevice,0,0,0,delay
 easy way of account opening,1,1,4,fallback_support
 package received in perfect condition,2,2,4,fallback_support
 ok ok service could faster,1,1,4,fallback_support
 delivered today waiting for result,1,1,4,fallback_support
-dont like this oder please return this product tq,0,0,4,fallback_support
+dont like this oder please return this product tq,0,0,7,refund
 packet damaged on delivery,0,0,2,damage_lost
 staff rude communication,0,0,3,behaviour
 product quality issue,1,0,4,fallback_support
 wrong medicine delivered,0,0,4,fallback_support
 defective item refund requested,1,0,7,refund
-return option not available,1,1,4,fallback_support
+return option not available,1,1,7,refund
 delivery agent did not ask OTP and risked wrong delivery,0,0,4,fallback_support
 paid extra but still had to collect myself,0,0,4,fallback_support
 very good courier service delivered on time,2,2,4,fallback_support
-delivery boy missing parcel items,0,0,2,damage_lost
+delivery boy missing parcel items,0,0,4,fallback_support
 received safely without damage,1,0,2,damage_lost
 delivery delay despite complaints,0,0,0,delay
 good service agent delivered safely after retry,2,2,4,fallback_support
@@ -311,21 +311,21 @@ false address error marked without call repeated delay,0,0,0,delay
 address clear but marked incomplete,0,0,4,fallback_support
 best time delivery,2,2,4,fallback_support
 excellent fast courier service,2,2,4,fallback_support
-deleverd wrong person,0,0,1,wrong_delivery
+deleverd wrong person,0,0,4,fallback_support
 bad delivery experience careless handling of customer asset,0,0,4,fallback_support
 delivery partner kept promising delivery but did not deliver,0,0,4,fallback_support
 shipment not delivered to me,1,0,4,fallback_support
 one of best delivery experiences,2,2,4,fallback_support
-delivery staff cooperative with regular updates,2,2,5,tracking
+delivery staff cooperative with regular updates,2,2,4,fallback_support
 order say deliver but do not get it,0,0,4,fallback_support
 didnt receive product at all,0,0,4,fallback_support
-account opening amount information missing,1,0,2,damage_lost
+account opening amount information missing,1,0,4,fallback_support
 received on time safely,1,1,4,fallback_support
 all services are good,2,2,4,fallback_support
 nice and very good service,2,2,4,fallback_support
 very poor service no response from customer care,0,0,4,support
 didnt pick up order,0,0,4,fallback_support
-exchange request,1,1,4,fallback_support
+exchange request,1,1,7,refund
 happy satisfied with response,2,2,4,fallback_support
 delivery message received but parcel not,1,1,4,fallback_support
 product not as shown in picture fake seller should be refused,0,0,4,fallback_support
@@ -334,14 +334,14 @@ worst service in india,0,0,4,fallback_support
 package opened before delivery,1,1,4,fallback_support
 I have open savings acccout only 7 days you freeze my accout why ,1,1,4,fallback_support
 superb service,2,2,4,fallback_support
-missing one pair slippers,1,0,2,damage_lost
+missing one pair slippers,1,0,4,fallback_support
 order arrived before expected date,1,1,4,fallback_support
 like courier service,2,2,4,fallback_support
 delivery not committed on time,0,0,4,fallback_support
 when receive call from blue dart delivery busy in another call im try since then but number come busy secondly he do not come my doorstep,0,0,4,support
 first delivery experience,1,1,4,fallback_support
-missed order no call received but status updated as not reachable,0,0,5,tracking
-fake product return requested,0,0,4,fallback_support
+missed order no call received but status updated as not reachable,0,0,3,behaviour
+fake product return requested,0,0,7,refund
 wrong leather case scam,0,0,4,fallback_support
 delivery boy good behaviour,2,2,3,behaviour
 need improvement in tracking details,1,1,5,tracking
@@ -356,7 +356,7 @@ delivery person very cooperative,2,2,4,fallback_support
 delivery boy do not call me,0,0,4,support
 address changed delivered old address,1,1,4,fallback_support
 nil,1,1,4,fallback_support
-shipment not delivered yet,1,0,4,fallback_support
+shipment not delivered yet,1,0,0,delay
 service too good,2,2,4,fallback_support
 thank you delivery staff,2,2,4,fallback_support
 delivery boy humble despite pincode issue,1,0,4,fallback_support
@@ -381,8 +381,8 @@ delivery boy avoids entering village,1,1,4,fallback_support
 No thanks ,1,2,4,fallback_support
 you did not deliver and asked me to collect not recommending your logistics,0,0,4,fallback_support
 till time not receive very bad service from blue dart,1,0,4,fallback_support
-return my order,1,1,4,fallback_support
-never recommend repeated false updates,0,0,5,tracking
+return my order,1,1,7,refund
+never recommend repeated false updates,0,0,4,fallback_support
 totally satisfied with delivery person,2,2,4,fallback_support
 good delivery thank you,2,2,4,fallback_support
 delivery agent demanded money during delivery,0,0,4,fallback_support
@@ -392,36 +392,36 @@ banking kyc process feedback needs improvement,1,1,6,pricing
 please inform age limit for personal loan,1,1,4,fallback_support
 didnt receive parcel,0,0,4,fallback_support
 damaged product,1,0,2,damage_lost
-parcel delivered to someone else refund requested,0,0,1,wrong_delivery
+parcel delivered to someone else refund requested,0,0,7,refund
 delivery staff behaviour appreciated,2,2,3,behaviour
-no proper delivery information no call received,1,1,4,support
+no proper delivery information no call received,1,1,3,behaviour
 not good delivery service,0,0,4,fallback_support
 call before delivery overall excellent,2,2,4,support
 had to collect product myself,0,0,4,fallback_support
-free service charge expectation,1,1,4,fallback_support
+free service charge expectation,1,1,6,pricing
 wrong delivery forced self pickup,0,0,4,fallback_support
-want to return product,1,1,4,fallback_support
+want to return product,1,1,7,refund
 delayed delivery long distance,1,0,0,delay
 excellent job,2,2,4,fallback_support
-very arrogant staff,0,0,4,fallback_support
+very arrogant staff,0,0,3,behaviour
 delivery person personally called and delivered package to my home great service,2,2,4,support
 blue dart company very good,2,2,4,fallback_support
 staff feedback,1,1,6,pricing
 today my shipment deliver,1,1,4,fallback_support
 my shipment not receive,0,0,4,fallback_support
-wrong delivery attempt updated falsely,0,0,5,tracking
-It shows delivery attempts but no call or visit was made,0,0,4,support
+wrong delivery attempt updated falsely,0,0,4,fallback_support
+It shows delivery attempts but no call or visit was made,0,0,3,behaviour
 fast service by delivery boy,2,2,4,fallback_support
 delivery person very kind friendly he bring order on time at my desk,2,2,4,fallback_support
 delivery delayed but finally received today,2,0,0,delay
-card not delivered false status,0,0,5,tracking
+card not delivered false status,0,0,4,fallback_support
 parcel delivered very late,0,0,0,delay
 delivery marked without placing order,1,1,4,fallback_support
 order not received please share delivery contact,0,0,2,damage_lost
-good customer service,2,2,4,fallback_support
+good customer service,2,2,4,support
 good person behaviour,2,2,3,behaviour
 please tell me installment details of my loan,1,1,4,fallback_support
-delivery person contact number needed,1,1,4,fallback_support
+delivery person contact number needed,1,1,4,support
 item not delivered delivery person rude unable locate address,0,0,3,behaviour
 delivery person delivered to wrong person without otp,0,0,1,wrong_delivery
 shipment not delivered house identification issue,0,0,4,fallback_support
@@ -429,7 +429,7 @@ size not perfect colour damage,0,0,2,damage_lost
 very bed service not fast delivery very bed service man,0,0,4,fallback_support
 bhaut bekar product or service,1,1,4,fallback_support
 always prompt service by bablu roy,2,2,4,fallback_support
-did not get order no call on sunday,0,0,4,support
+did not get order no call on sunday,0,0,3,behaviour
 worst service ever delivery boy did not come and submitted fake details,0,0,4,fallback_support
 please call one hour before delivery,1,1,4,support
 delivery delayed again marked delivered wrongly,0,0,0,delay
@@ -440,7 +440,7 @@ delivery agent waited patiently great job,2,2,4,fallback_support
 thank you delivery team good service,2,2,4,fallback_support
 very good like bluedart service,2,2,4,fallback_support
 delivery too late cash refund not received,0,0,2,damage_lost
-follow up after account opening needed,1,1,4,fallback_support
+follow up after account opening needed,1,1,4,support
 received wrong parcel,0,0,4,fallback_support
 not delivered but marked received,0,0,4,fallback_support
 delivery executive extremely rude,0,0,3,behaviour
@@ -454,19 +454,19 @@ location awareness minimal call,1,1,4,support
 keep up,1,1,4,fallback_support
 delivery without otp confirmation,1,1,4,fallback_support
 courteous delivery,1,1,4,fallback_support
-parcel cover torn,1,1,4,fallback_support
-how to return order,1,1,4,fallback_support
+parcel cover torn,1,1,2,damage_lost
+how to return order,1,1,7,refund
 my shipment scheduled for november delivery,1,1,4,fallback_support
 all well,1,1,4,fallback_support
 delivery on time this time,1,1,4,fallback_support
-you want call update them thanks,1,2,5,tracking
+you want call update them thanks,1,2,4,support
 quick service with phone confirmation,2,2,4,fallback_support
-wrong item delivered police complaint,0,0,4,fallback_support
+wrong item delivered police complaint,0,0,4,support
 excellent delivery boy good job,2,2,4,fallback_support
 goo ld,1,1,4,fallback_support
 nothing special,1,1,4,fallback_support
 too slow get package,0,0,4,fallback_support
-delivery agent refused home delivery threatened return,0,0,4,fallback_support
+delivery agent refused home delivery threatened return,0,0,7,refund
 delivery delayed no call for reschedule and no doorstep delivery,0,0,0,delay
 professional behaviour,2,2,3,behaviour
 very bad service in our city,0,0,4,fallback_support
@@ -479,7 +479,7 @@ delayed delivery,1,0,0,delay
 delivery person always delivers promptly with care,2,2,4,fallback_support
 poor communication before delivery,1,1,4,fallback_support
 very bad service did not receive docket,0,0,2,damage_lost
-this delivery boy should fire by blue dart for give someone elses atm someone else we receive message contact u he say that there no parcel of mine there,1,1,1,wrong_delivery
+this delivery boy should fire by blue dart for give someone elses atm someone else we receive message contact u he say that there no parcel of mine there,1,1,4,support
 fake item delivered,0,0,4,fallback_support
 not doorstep service,0,0,4,fallback_support
 delivery on time with tracking updates,2,2,5,tracking
@@ -487,5 +487,5 @@ fake product,0,0,4,fallback_support
 reliable delivery personnel,2,2,4,fallback_support
 very good job by delivery executive,2,2,4,fallback_support
 delivery boy ganesh verma very good behaviour,2,2,3,behaviour
-mujhe return karna hai,1,1,4,fallback_support
+mujhe return karna hai,1,1,7,refund
 well mannered,1,1,4,fallback_support
