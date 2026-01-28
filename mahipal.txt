@@ -19,3 +19,19 @@ aspect_sentiment	Sentiment of that aspect	Positive / Neutral / Negative
 customer_intent	Why customer wrote	Complaint / Inquiry / Praise
 emotion	Emotional tone (optional but useful)	Calm / Frustrated / Angry
 satisfaction	Business outcome	Low / Medium / High
+
+
+
+0 = Calm        (no risk, stable)
+1 = Satisfied   (positive, low risk)
+2 = Frustrated  (medium risk, warning)
+3 = Angry       (high risk, escalation)
+4 = Very Angry  (🔥 critical, churn / legal risk)
+
+
+Emotion	Meaning	Action
+Calm	Normal	No action
+Satisfied	Happy	Quality / praise
+Frustrated	Unhappy but stable	Monitor
+Angry	Serious complaint	Escalate
+Very Angry	🔥 Extreme	Immediate action
