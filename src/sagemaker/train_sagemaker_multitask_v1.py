@@ -25,7 +25,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # -------------------------
 # CONFIG
 # -------------------------
-MODEL_NAME = "xlm-roberta-base"
+MODEL_NAME = "xlm-roberta-large"
 MAX_LEN = 160
 EPOCHS = int(os.environ.get("EPOCHS", 3))
 BATCH_SIZE = int(os.environ.get("BATCH_SIZE", 16))
