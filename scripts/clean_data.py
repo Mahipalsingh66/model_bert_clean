@@ -1,7 +1,7 @@
 import pandas as pd
 
-INPUT_PATH = "/media/data/7b192233-93d1-41b0-8a9a-4b626a44281a/project_bert/data/feedback.csv"
-OUTPUT_PATH = "/media/data/7b192233-93d1-41b0-8a9a-4b626a44281a/project_bert/data/processed/cleaned.csv"
+INPUT_PATH = r"D:/model_bert_copy/data/gold/multitask_raw_data/Book2.csv"
+OUTPUT_PATH = r"D:/model_bert_copy/data/gold/multitask_raw_data/Book2_cleand.csv"
 
 def main():
     df = pd.read_csv(INPUT_PATH)

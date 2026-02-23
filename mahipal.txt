@@ -35,3 +35,8 @@ Satisfied	Happy	Quality / praise
 Frustrated	Unhappy but stable	Monitor
 Angry	Serious complaint	Escalate
 Very Angry	🔥 Extreme	Immediate action
+
+
+first create clean dataset of model that have text and label after that run 
+cutomer  intent file 
+genrate_aspect_v3.py

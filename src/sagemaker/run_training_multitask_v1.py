@@ -23,14 +23,14 @@ estimator = PyTorch(
     disable_profiler=True,
     debugger_hook_config=False,
     hyperparameters={
-        "EPOCHS": 3,
+        "EPOCHS": 5,
         "BATCH_SIZE": 16,
-        "LR": 2e-5
+        "LR": 1e-5
     },
     sagemaker_session=session
 )
 
 estimator.fit({
-    "train": f"s3://{bucket}/gold/cx_phase6/train.csv",
-    "val":   f"s3://{bucket}/gold/cx_phase6/val.csv"
+    "train": f"s3://{bucket}/gold/cx_final_gold/train.csv",
+    "val":   f"s3://{bucket}/gold/cx_final_gold/val.csv"
 })

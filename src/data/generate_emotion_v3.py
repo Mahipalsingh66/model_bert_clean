@@ -6,8 +6,8 @@
 
 import pandas as pd
 
-INPUT_PATH  = r"D:/model_bert_copy/data/gold/cx_phase4/val.csv"
-OUTPUT_PATH = r"D:/model_bert_copy/data/gold/cx_phase5/val_with_emotion_v3.csv"
+INPUT_PATH  = r"D:/model_bert_copy/data/gold/multitask_raw_data/train_multi_aspect_3step.csv"
+OUTPUT_PATH = r"D:/model_bert_copy/data/gold/multitask_raw_data/train_multi_emotion_4step.csv"
 
 VERY_ANGRY_KW = ["fraud","cheated","scam","court","legal","harassment","refund fraud","money stolen"]
 ANGRY_KW = ["angry","furious","complaint","bad service","poor service","rude","refund pending","lost","damaged","wrong delivery"]

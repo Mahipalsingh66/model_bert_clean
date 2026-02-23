@@ -22,8 +22,8 @@ import re
 # PATHS
 # ------------------------------------------------------------
 
-INPUT_PATH  = r"D:/model_bert_copy/data/gold/v2.3_multitask/val_multi_v1.csv"
-OUTPUT_PATH = r"D:/model_bert_copy/data/gold/cx_phase3/val_with_aspect_v3.csv"
+INPUT_PATH  = r"D:/model_bert_copy/data/gold/multitask_raw_data/train_multi_intent_1step.csv"
+OUTPUT_PATH = r"D:/model_bert_copy/data/gold/multitask_raw_data/train_multi_aspect_2step.csv"
 
 # ------------------------------------------------------------
 # KEYWORD BANK (MAX COVERAGE, ENTERPRISE GRADE)

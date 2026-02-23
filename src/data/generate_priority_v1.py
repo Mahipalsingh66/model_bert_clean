@@ -16,8 +16,8 @@ import pandas as pd
 # ------------------------------------------------------------
 # PATHS (CHANGE IF NEEDED)
 # ------------------------------------------------------------
-INPUT_PATH  = r"D:/model_bert_copy/data/gold/cx_phase5/train.csv"
-OUTPUT_PATH = r"D:/model_bert_copy/data/gold/cx_phase6/train_with_priority.csv"
+INPUT_PATH  = r"D:/model_bert_copy/data/gold/multitask_raw_data/train_multi_emotion_4step.csv"
+OUTPUT_PATH = r"D:/model_bert_copy/data/gold/multitask_raw_data/train_multi_priority_5step.csv"
 
 # ------------------------------------------------------------
 # CONSTANTS (YOUR TAXONOMY)

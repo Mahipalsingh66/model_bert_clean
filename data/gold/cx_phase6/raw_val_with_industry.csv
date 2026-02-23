@@ -1,0 +1,491 @@
+text,industry,sentiment,customer_intent,primary_aspect,aspect_flag,aspect_sentiment,emotion,priority
+delivery executive handed card to unknown maid,logistics,0,0,4,fallback_support,1,0,1
+not require excellent service,logistics,1,2,4,fallback_support,2,1,0
+didnt receive product,logistics,0,0,4,fallback_support,1,0,1
+order delivered to wrong address,logistics,0,0,1,wrong_delivery,0,3,2
+prompt service delivery,logistics,2,2,4,fallback_support,2,1,0
+product quality feedback,logistics,1,1,6,pricing,1,0,0
+he didnt deliver doorstep,logistics,1,1,4,fallback_support,1,0,0
+way of talk so arrogant of delivery boy he not able listen customer detailsaddress while deliver product,logistics,0,0,4,fallback_support,1,0,1
+great work good job,logistics,2,2,4,fallback_support,2,1,0
+order late but service okay,logistics,1,0,0,delay,0,0,1
+delivery done to someone else without intimation,logistics,1,1,4,fallback_support,1,0,0
+repeated late delivery despite work from home presence,logistics,1,0,0,delay,0,0,1
+service needs improvement,logistics,1,1,4,fallback_support,1,0,0
+IDFC bank account opening very good facility,logistics,1,2,4,fallback_support,2,1,0
+item received damaged missing parts,logistics,0,0,2,damage_lost,0,4,3
+late delivery poor customer responsibility,logistics,0,0,0,delay,0,3,2
+very good experience with staff,logistics,2,2,4,fallback_support,2,1,0
+delivery agent rude and misbehaved with colleague,logistics,0,0,3,behaviour,0,3,2
+delivery agent mark delivery without even attempt till time escalate they didnt have any intention delivery,logistics,0,0,0,delay,0,3,2
+extremely poor service never want bluedart again,logistics,0,0,4,fallback_support,0,3,2
+kyc failure account frozen poor response,logistics,0,0,4,fallback_support,0,3,2
+not delivered on time,logistics,1,0,0,delay,0,0,1
+delivery agent called but marked not home incorrectly,logistics,1,1,4,support,0,0,0
+completely different saree received,logistics,1,1,4,fallback_support,1,0,0
+best service on time service,logistics,2,2,4,fallback_support,2,1,0
+worst delivery forced to collect from office,logistics,0,0,4,fallback_support,0,3,2
+product not delivered to my proper address,logistics,0,0,4,fallback_support,0,3,2
+delay reason address incorrect not acceptable,logistics,0,0,0,delay,0,3,2
+not delivered but message says delivered,logistics,1,0,4,fallback_support,0,0,0
+delivery person did not come to doorstep,logistics,0,0,4,fallback_support,1,0,1
+fake attempts rude delivery behaviour long complaint,logistics,0,0,3,behaviour,0,3,2
+customer should be called directly if unavailable,logistics,1,1,4,support,1,0,0
+delivered on estimated time,logistics,2,2,4,fallback_support,2,1,0
+delivery partner humble,logistics,2,2,4,fallback_support,2,1,0
+not deliver in flat even we present in our home he hand over build watchman,logistics,1,1,4,fallback_support,1,0,0
+service acceptable,logistics,1,1,4,fallback_support,1,0,0
+no delivery attempt made,logistics,0,0,4,fallback_support,1,0,1
+great delivery within time,logistics,2,2,4,fallback_support,2,1,0
+good work,logistics,2,2,4,fallback_support,2,1,0
+delivery boy excellent delivered in my area,logistics,2,2,4,fallback_support,2,1,0
+delivered late despite nearby hub,logistics,1,0,0,delay,0,0,1
+bank staff supportive explained everything clearly,logistics,2,2,4,support,2,1,0
+smart watch ka battery backup nahi hai,logistics,1,1,4,fallback_support,1,0,0
+not good experience,logistics,0,0,4,fallback_support,2,1,1
+all good overall,logistics,1,2,4,fallback_support,2,1,0
+multiple accounts mishandled by bank staff,logistics,1,1,4,fallback_support,1,0,0
+nice product quality,logistics,2,2,4,fallback_support,2,1,0
+marked refused without calling,logistics,0,0,4,support,1,0,1
+good delivery partner minor address issue,logistics,1,0,4,fallback_support,0,1,0
+delivery person rude not polite,logistics,0,0,3,behaviour,0,3,2
+delivery in time,logistics,1,1,4,fallback_support,1,0,0
+rewari bluedart service very bad village delivery refused,logistics,0,0,4,fallback_support,0,3,2
+message shows delivered but not received,logistics,0,0,2,damage_lost,0,4,3
+delivery boy asked extra payment not acceptable,logistics,1,1,4,fallback_support,1,0,0
+parcel not received but status shows delivered,logistics,0,0,2,damage_lost,0,4,3
+poor delivery service no contact details and no support,logistics,0,0,4,support,0,3,2
+received only partial offer product,logistics,1,1,4,fallback_support,1,0,0
+very bad service overall,logistics,0,0,4,fallback_support,0,3,2
+no issue,logistics,1,0,4,fallback_support,0,0,0
+order not delivered yet,logistics,0,0,0,delay,0,3,2
+not good wrong product,logistics,0,0,4,fallback_support,0,3,2
+delivery person polite cooperative,logistics,1,1,4,fallback_support,2,0,0
+product not received,logistics,0,0,2,damage_lost,0,4,3
+item missing,logistics,1,0,2,damage_lost,0,0,0
+delivery guy didnt call marked delivered,logistics,0,0,4,support,1,0,1
+fast service delivery,logistics,2,2,4,fallback_support,2,1,0
+no major feedback,logistics,1,1,6,pricing,1,0,0
+deliver on time,logistics,2,2,4,fallback_support,2,1,0
+good person,logistics,2,2,4,fallback_support,2,1,0
+delivery agent should wait after ringing bell,logistics,1,1,4,fallback_support,1,0,0
+Please provide the delivery boy number to know delivery status,logistics,1,1,4,fallback_support,1,0,0
+idfc first bank is very good bank,logistics,2,2,4,fallback_support,2,1,0
+bad experience delivery agent behaved badly,logistics,0,0,4,fallback_support,0,3,2
+More transparency about the offer and reflecting same on the screen. No where it is mentioned about non compliance of offer. Not sure whether offer is valid and applied ,logistics,1,1,4,fallback_support,1,0,0
+delivery agent did not call or ask otp,logistics,0,0,3,behaviour,1,0,2
+parcel handed to security without informing customer,logistics,1,1,4,fallback_support,1,0,0
+wrong shipment deliver,logistics,0,0,4,fallback_support,0,3,2
+delivery delayed by one day though reached hub earlier,logistics,1,0,0,delay,0,2,2
+cancel my order,logistics,1,1,4,fallback_support,1,0,0
+late night delivery inconvenience,logistics,0,0,0,delay,0,3,2
+transaction error message should be corrected,logistics,1,1,4,fallback_support,1,0,0
+delivery agent refused to come upstairs,logistics,1,1,4,fallback_support,1,0,0
+no shipment delivered please update,logistics,0,0,4,fallback_support,1,0,1
+same as today,logistics,1,1,4,fallback_support,1,0,0
+return request product,logistics,1,1,7,refund,1,0,0
+full delivery not receive one item missing,logistics,0,0,2,damage_lost,0,4,3
+delivery forgotten item issue,logistics,1,0,4,fallback_support,0,0,0
+didnt receive on time very poor service,logistics,0,0,4,fallback_support,0,3,2
+bank unfair treatment complaint,logistics,0,0,4,support,0,3,2
+update caller id with bluedart name,logistics,1,1,4,support,1,0,0
+it take day deliver item,logistics,1,1,4,fallback_support,1,0,0
+empty box received,logistics,1,1,2,damage_lost,1,0,0
+havent received my product delivery agent number not available very expensive item,logistics,0,0,4,fallback_support,1,0,1
+very very very bad service not deliver my home,logistics,0,0,4,fallback_support,0,3,2
+T,logistics,1,1,4,fallback_support,1,0,0
+focus more on customer problems,logistics,1,0,4,fallback_support,0,0,0
+very bad service by local bluedart office wrong location delivery,logistics,0,0,1,wrong_delivery,0,3,2
+wrong delivery suspected,logistics,0,0,4,fallback_support,0,3,2
+delivery person went to wrong address and kept postponing delivery unacceptable service,logistics,0,0,1,wrong_delivery,0,3,2
+courier person not able to deliver on same day,logistics,0,0,4,fallback_support,1,0,1
+nice,logistics,2,2,4,fallback_support,2,1,0
+among best courier services,logistics,1,1,4,fallback_support,1,0,0
+delivery person unable to understand OTP very frustrating,logistics,0,0,4,fallback_support,1,0,1
+product not deliver,logistics,0,0,4,fallback_support,1,0,1
+delivery partner useless keeps item daily out for delivery,logistics,0,0,4,fallback_support,1,0,1
+document delivered to wrong person via otp,logistics,1,0,1,wrong_delivery,0,0,1
+not deliver properly,logistics,0,0,4,fallback_support,1,0,1
+delivery not attempted despite complaints,logistics,1,1,0,delay,0,3,2
+courier not receive,logistics,0,0,4,fallback_support,1,0,1
+home delivery unavailable forced other village pickup,logistics,1,1,4,fallback_support,1,0,0
+delivery partner very rude,logistics,0,0,3,behaviour,0,3,2
+user friendly service,logistics,2,2,4,fallback_support,2,1,0
+delivered before expected time,logistics,2,2,4,fallback_support,2,1,0
+delivery boy behaviour positive,logistics,1,1,3,behaviour,1,0,0
+delivery on time polite behaviour,logistics,1,1,3,behaviour,2,0,0
+shipment held for days worst service,logistics,0,0,4,fallback_support,0,3,2
+product not secure,logistics,1,1,4,fallback_support,1,0,0
+delivery staff rude wrong location refused actual address,logistics,0,0,1,wrong_delivery,0,3,2
+please give preference to senior citizens,logistics,1,1,4,fallback_support,1,0,0
+delivery fast,logistics,2,2,4,fallback_support,2,1,0
+rate pant finishing poor,logistics,1,1,4,fallback_support,0,0,0
+very bad service,logistics,0,0,4,fallback_support,0,3,2
+order in that didnt order taste so bad really waste my money hate this chocolate anybody order in this website suggest them dont order,logistics,0,0,0,delay,0,3,2
+number wrongly updated in company system,logistics,1,0,4,fallback_support,0,0,0
+parcel still not delivered,logistics,0,0,4,fallback_support,0,3,2
+delivery delay refund requested,logistics,1,0,0,delay,0,2,2
+happy with the service,logistics,2,2,4,fallback_support,2,1,0
+packing damaged,logistics,1,0,2,damage_lost,0,3,3
+product delivered at doorstep,logistics,2,2,4,fallback_support,2,1,0
+very good delivery staff,logistics,2,2,4,fallback_support,2,1,0
+polite sweet courier person,logistics,2,2,4,fallback_support,2,1,0
+fast good delivery,logistics,2,2,4,fallback_support,2,1,0
+service not regular delivery delayed,logistics,1,0,0,delay,0,2,2
+name incorrect on receipt needs accuracy,logistics,1,1,4,fallback_support,0,0,0
+great delivery service,logistics,2,2,4,fallback_support,2,1,0
+please update mogappair west office address on website,logistics,1,1,4,fallback_support,1,0,0
+otp system needed for secure delivery,logistics,1,1,4,fallback_support,1,0,0
+worst service ever,logistics,0,0,4,fallback_support,0,3,2
+delivery person rude refused to wait,logistics,0,0,3,behaviour,0,3,2
+available at home but marked unavailable by local team,logistics,1,1,4,fallback_support,1,0,0
+nothing delivered yet,logistics,1,1,4,fallback_support,1,0,0
+agent lied about savings account benefits fraud,logistics,0,0,4,fallback_support,1,4,3
+cannot receive parcel yet,logistics,1,1,4,fallback_support,1,0,0
+status transparency requested,logistics,1,1,4,fallback_support,1,0,0
+delivery agent did not come and office responded rudely,logistics,0,0,3,behaviour,0,3,2
+not get any product or check but they show deleverd didnt get any document,logistics,1,1,4,fallback_support,1,0,0
+product not received,logistics,1,1,2,damage_lost,0,0,0
+sarvesh courier disciplined behaviour,logistics,2,2,3,behaviour,2,1,0
+wrong information regard delivery late delivery,logistics,0,0,0,delay,0,3,2
+delivered but wrong number mentioned,logistics,1,0,4,fallback_support,0,0,0
+delivery boy poor language,logistics,0,0,4,fallback_support,0,3,2
+delivery date not shared clearly,logistics,1,2,4,fallback_support,1,0,0
+delivery staff not accepting online payment,logistics,1,1,4,fallback_support,1,0,0
+service very poor collected from office,logistics,0,0,4,fallback_support,0,3,2
+bad service rude delivery boy,logistics,0,0,3,behaviour,0,3,2
+delivered to unknown person,logistics,0,0,4,fallback_support,1,0,1
+very fast service by blue dart,logistics,2,2,4,fallback_support,2,1,0
+delivery should be faster,logistics,1,1,4,fallback_support,2,0,0
+nice job,logistics,2,2,4,fallback_support,2,1,0
+delay many days no proactive update,logistics,1,0,0,delay,0,2,2
+everything fine currently,logistics,2,2,4,fallback_support,2,1,0
+do not give otp without otp how can you say that recieved my courier your agent even do nt ask for otp how can ypur company give courier any one without confirm any identity or otp,logistics,0,0,4,fallback_support,1,0,1
+It was a wonderful experience,logistics,2,2,4,fallback_support,2,1,0
+too much repeated information given,logistics,1,1,4,fallback_support,1,0,0
+forced to pick from office wrong status shown,logistics,0,0,4,fallback_support,0,3,2
+parcel come in damage condition,logistics,1,0,2,damage_lost,1,0,0
+parcel damaged delivery agent refused return,logistics,0,0,2,damage_lost,0,4,3
+extreme poor delivery service address known still delayed,logistics,0,0,0,delay,0,3,2
+wonderful bank services,logistics,2,2,4,fallback_support,2,1,0
+service is good,logistics,1,2,4,fallback_support,2,1,0
+good service by staff member,logistics,2,2,4,fallback_support,2,1,0
+address confusion by delivery boy,logistics,0,0,4,fallback_support,1,0,1
+package not delivered had to collect from depot,logistics,0,0,4,fallback_support,0,3,2
+delivery done without my knowledge,logistics,1,1,4,fallback_support,1,0,0
+very good friendly,logistics,2,2,4,fallback_support,2,1,0
+bad delivery executive,logistics,0,0,4,fallback_support,0,3,2
+fake product received please refund,logistics,0,0,7,refund,0,4,3
+deliver item on time,logistics,1,1,4,fallback_support,2,0,0
+delivery man late due to pickup delay,logistics,1,0,0,delay,0,2,2
+delivery marked but not received scam,logistics,0,0,2,damage_lost,0,4,3
+package not delivered to me,logistics,0,0,4,fallback_support,0,3,2
+this product not same please give me my refund,logistics,0,0,7,refund,0,4,3
+product not ordered by me,logistics,1,1,4,fallback_support,1,0,0
+delivery update came very late,logistics,0,0,0,delay,0,3,2
+false delivery reports,logistics,0,0,4,fallback_support,1,0,1
+delivery delay explanation requested overall positive,logistics,2,0,0,delay,0,0,0
+ordered two jackets received one,logistics,1,1,4,fallback_support,1,0,0
+not contacted before delivery unclear handover,logistics,1,2,3,behaviour,1,0,0
+after day recieved hub near mei pick up parcel after hour stand there at your hub,logistics,1,1,4,fallback_support,1,0,0
+delivery agent refused doorstep delivery,logistics,0,0,4,fallback_support,1,0,1
+even after guide about address he instruct me stand outside my home till he arrive,logistics,1,1,4,fallback_support,1,0,0
+received product after one day delay,logistics,1,0,0,delay,0,2,2
+delivery not received no call made,logistics,0,0,2,damage_lost,0,4,3
+forced to collect from office though home available,logistics,0,0,4,fallback_support,1,0,1
+very bad product ordered JBL received used Boat item,logistics,0,0,4,fallback_support,0,3,2
+already service good,logistics,2,2,4,fallback_support,2,1,0
+received order two days late,logistics,0,0,0,delay,0,3,2
+wrong product deliver,logistics,0,0,4,fallback_support,0,3,2
+agent delivered after complaint and made false delivery updates,logistics,0,0,4,support,0,3,2
+no important need,logistics,1,1,4,fallback_support,1,0,0
+order delayed otp taken for refusal,logistics,1,0,0,delay,0,2,2
+delivery man didnt come back on time,logistics,0,0,4,fallback_support,2,0,1
+service smooth person who deliver shipment very humble polite,logistics,2,2,4,fallback_support,2,1,0
+he say call by customer name at home this not good attitude,logistics,0,0,4,support,2,1,1
+not receive my order,logistics,0,0,4,fallback_support,1,0,1
+received wrong product,logistics,0,0,4,fallback_support,0,3,2
+not delivered,logistics,1,0,4,fallback_support,0,0,0
+size issue in order,logistics,1,0,4,fallback_support,0,0,0
+good but not upto mark,logistics,1,2,4,fallback_support,2,1,0
+delivery smooth and timely thank you,logistics,2,2,4,fallback_support,2,1,0
+main rain same,logistics,1,1,4,fallback_support,1,0,0
+1,logistics,1,1,4,fallback_support,1,0,0
+not delivered but status shows delivered,logistics,0,0,4,fallback_support,0,3,2
+potronics product service poor,logistics,0,0,4,fallback_support,0,3,2
+very pathetic service from local delivery partner,logistics,0,0,4,fallback_support,1,0,1
+did not receive order due to price issue,logistics,0,0,2,damage_lost,0,4,3
+delivery ensured on time,logistics,2,2,4,fallback_support,2,1,0
+service not available in my area but accepted order,logistics,0,0,4,fallback_support,1,0,1
+good service,logistics,2,2,4,fallback_support,2,1,0
+very prompt efficient delivery always,logistics,2,2,4,fallback_support,2,1,0
+very bad service marked not available,logistics,0,0,4,fallback_support,0,3,2
+delay delivery,logistics,0,0,0,delay,0,3,2
+delivery boy rude behaviour,logistics,0,0,3,behaviour,0,3,2
+staff shortage caused delay and inconvenience,logistics,0,0,0,delay,0,3,2
+not receive yet,logistics,1,1,4,fallback_support,1,0,0
+do excellent,logistics,2,2,4,fallback_support,2,1,0
+very poor service never use bluedart again,logistics,0,0,4,fallback_support,0,3,2
+shipment not delivered false claim,logistics,0,0,4,fallback_support,0,3,2
+Bahut achha bank hai,logistics,1,1,4,fallback_support,1,0,0
+delivery agent rude and impolite,logistics,0,0,3,behaviour,0,3,2
+improve video kyc agent availability,logistics,1,1,4,fallback_support,1,0,0
+need faster delivery,logistics,1,1,4,fallback_support,2,0,0
+product scam,logistics,0,0,4,fallback_support,1,4,3
+on time delivery very good,logistics,2,2,4,fallback_support,2,1,0
+courier guy insisted I come downstairs to collect parcel,logistics,1,1,4,fallback_support,1,0,0
+good deliver,logistics,2,2,4,fallback_support,2,1,0
+good product,logistics,2,2,4,fallback_support,2,1,0
+add delivery boy number in out for delivery sms,logistics,1,1,4,fallback_support,1,0,0
+number one courier service claim,logistics,1,1,4,fallback_support,1,0,0
+delivery agent rude not cooperative,logistics,0,0,3,behaviour,0,3,2
+delivery got delayed beyond expected delivery date,logistics,0,0,0,delay,0,3,2
+delivery service good but slow,logistics,1,2,4,fallback_support,2,1,0
+address issue,logistics,1,0,4,fallback_support,0,0,0
+product not deliver mark delivered,logistics,0,0,4,fallback_support,1,0,1
+unprofessional forced office collection,logistics,0,0,3,behaviour,0,3,2
+superfast on time delivery very happy,logistics,2,2,4,fallback_support,2,1,0
+delivery boy nature very good,logistics,1,2,4,fallback_support,2,1,0
+packet opened seal broken,logistics,1,1,2,damage_lost,0,0,0
+security guard delivery should not happen,logistics,1,1,4,fallback_support,1,0,0
+no proper delivery information shared,logistics,1,1,4,fallback_support,1,0,0
+deliver both items together suggestion,logistics,2,2,4,fallback_support,2,1,0
+delivery boy nature good,logistics,1,2,4,fallback_support,2,1,0
+you do well,logistics,2,2,4,fallback_support,2,1,0
+very nice,logistics,2,2,4,fallback_support,2,1,0
+gooo wo,logistics,1,1,4,fallback_support,1,0,0
+missing product in order,logistics,1,0,4,fallback_support,0,0,0
+delivery too late refund not received,logistics,0,0,2,damage_lost,0,4,3
+network error message needs fix,logistics,1,1,4,fallback_support,1,0,0
+item missing in parcel,logistics,1,0,2,damage_lost,0,0,0
+courier misdelivered to wrong address urgent issue,logistics,0,0,1,wrong_delivery,0,3,2
+forced to spend money to collect parcel,logistics,0,0,4,fallback_support,1,0,1
+tracking problem,logistics,1,0,5,tracking,0,0,1
+delivery person left parcel with building security without contacting me,logistics,0,0,4,support,1,0,1
+delivery experience not improved disappointed,logistics,0,0,4,fallback_support,1,0,1
+status marked consignee unavailable without attempt,logistics,0,0,4,fallback_support,1,0,1
+bad product,logistics,1,0,4,fallback_support,0,0,0
+please deliver on time or day late okay but delay by day,logistics,1,0,0,delay,0,2,2
+delivery executive very kind service excellent,logistics,2,2,4,fallback_support,2,1,0
+package stolen and parcel tampered,logistics,0,0,2,damage_lost,0,4,3
+return option missing,logistics,1,0,7,refund,0,0,0
+abusive language,logistics,0,0,4,fallback_support,1,0,1
+delivery delayed after repeated follow up,logistics,0,0,0,delay,0,3,2
+improve delivery time,logistics,1,1,4,fallback_support,1,0,0
+very bad service every time,logistics,0,0,4,fallback_support,0,3,2
+very nice person,logistics,2,2,4,fallback_support,2,1,0
+professional service quality,logistics,2,2,4,fallback_support,2,1,0
+cheap quality wrong item,logistics,0,0,4,fallback_support,0,3,2
+parcel not delivered timely,logistics,0,0,4,fallback_support,0,3,2
+not delivered any product,logistics,0,0,4,fallback_support,0,3,2
+order not delivered but marked delivered,logistics,0,0,4,fallback_support,0,3,2
+late delivery,logistics,0,0,0,delay,0,3,2
+delivery to someone else demand draft missing,logistics,1,0,4,fallback_support,0,0,0
+very fast,logistics,1,1,4,fallback_support,2,0,0
+bakwaas deepak mujhe call nahi karta hai pata nahi kaha deliver kar deta hai,logistics,1,1,4,support,1,0,0
+system used old address issue,logistics,1,0,4,fallback_support,0,0,0
+thank you bluedart delivery agent,logistics,2,2,4,fallback_support,2,1,0
+better delivery updates required,logistics,1,1,4,fallback_support,1,0,0
+delay sevice,logistics,0,0,0,delay,0,3,2
+easy way of account opening,logistics,1,1,4,fallback_support,1,0,0
+package received in perfect condition,logistics,2,2,4,fallback_support,2,1,0
+ok ok service could faster,logistics,1,1,4,fallback_support,2,0,0
+delivered today waiting for result,logistics,1,1,4,fallback_support,1,2,1
+dont like this oder please return this product tq,logistics,0,0,7,refund,0,4,3
+packet damaged on delivery,logistics,0,0,2,damage_lost,0,4,3
+staff rude communication,logistics,0,0,3,behaviour,0,3,2
+product quality issue,logistics,1,0,4,fallback_support,0,0,0
+wrong medicine delivered,logistics,0,0,4,fallback_support,0,3,2
+defective item refund requested,logistics,1,0,7,refund,1,0,0
+return option not available,logistics,1,1,7,refund,1,0,0
+delivery agent did not ask OTP and risked wrong delivery,logistics,0,0,4,fallback_support,0,3,2
+paid extra but still had to collect myself,logistics,0,0,4,fallback_support,1,0,1
+very good courier service delivered on time,logistics,2,2,4,fallback_support,2,1,0
+delivery boy missing parcel items,logistics,0,0,4,fallback_support,0,3,2
+received safely without damage,logistics,1,0,2,damage_lost,1,0,0
+delivery delay despite complaints,logistics,0,0,0,delay,0,3,2
+good service agent delivered safely after retry,logistics,2,2,4,fallback_support,2,1,0
+delivery person polite doorstep delivery,logistics,2,2,4,fallback_support,2,1,0
+loan id requested,logistics,1,1,4,fallback_support,1,0,0
+false address error marked without call repeated delay,logistics,0,0,0,delay,0,3,2
+address clear but marked incomplete,logistics,0,0,4,fallback_support,1,0,1
+best time delivery,logistics,2,2,4,fallback_support,2,1,0
+excellent fast courier service,logistics,2,2,4,fallback_support,2,1,0
+deleverd wrong person,logistics,0,0,4,fallback_support,0,3,2
+bad delivery experience careless handling of customer asset,logistics,0,0,4,fallback_support,0,3,2
+delivery partner kept promising delivery but did not deliver,logistics,0,0,4,fallback_support,1,0,1
+shipment not delivered to me,logistics,1,0,4,fallback_support,0,0,0
+one of best delivery experiences,logistics,2,2,4,fallback_support,2,1,0
+delivery staff cooperative with regular updates,logistics,2,2,4,fallback_support,2,1,0
+order say deliver but do not get it,logistics,0,0,4,fallback_support,1,0,1
+didnt receive product at all,logistics,0,0,4,fallback_support,1,0,1
+account opening amount information missing,logistics,1,0,4,fallback_support,0,0,0
+received on time safely,logistics,1,1,4,fallback_support,2,0,0
+all services are good,logistics,2,2,4,fallback_support,2,1,0
+nice and very good service,logistics,2,2,4,fallback_support,2,1,0
+very poor service no response from customer care,logistics,0,0,4,support,0,3,2
+didnt pick up order,logistics,0,0,4,fallback_support,1,0,1
+exchange request,logistics,1,1,7,refund,1,0,0
+happy satisfied with response,logistics,2,2,4,fallback_support,2,1,0
+delivery message received but parcel not,logistics,1,1,4,fallback_support,1,0,0
+product not as shown in picture fake seller should be refused,logistics,0,0,4,fallback_support,0,3,2
+no customer care contact courier unreachable,logistics,0,0,4,support,1,0,1
+worst service in india,logistics,0,0,4,fallback_support,0,3,2
+package opened before delivery,logistics,1,1,4,fallback_support,1,0,0
+I have open savings acccout only 7 days you freeze my accout why ,logistics,1,1,4,fallback_support,1,0,0
+superb service,logistics,2,2,4,fallback_support,2,1,0
+missing one pair slippers,logistics,1,0,4,fallback_support,0,0,0
+order arrived before expected date,logistics,1,1,4,fallback_support,1,0,0
+like courier service,logistics,2,2,4,fallback_support,2,1,0
+delivery not committed on time,logistics,0,0,4,fallback_support,2,0,1
+when receive call from blue dart delivery busy in another call im try since then but number come busy secondly he do not come my doorstep,logistics,0,0,4,support,1,0,1
+first delivery experience,logistics,1,1,4,fallback_support,1,0,0
+missed order no call received but status updated as not reachable,logistics,0,0,3,behaviour,1,0,2
+fake product return requested,logistics,0,0,7,refund,0,4,3
+wrong leather case scam,logistics,0,0,4,fallback_support,0,4,3
+delivery boy good behaviour,logistics,2,2,3,behaviour,2,1,0
+need improvement in tracking details,logistics,1,1,5,tracking,1,0,1
+delivery boy not calling from authorized number,logistics,0,0,4,support,1,0,1
+please deliver on time without delay,logistics,1,0,0,delay,0,2,2
+parcel delivered to security guard instead of flat doorstep unacceptable,logistics,0,0,4,fallback_support,1,0,1
+dilivery quick thanks for service,logistics,2,2,4,fallback_support,2,1,0
+on time safe delivery,logistics,1,1,4,fallback_support,2,0,0
+excellent bank staff and app,logistics,2,2,4,fallback_support,2,1,0
+minor product damage but usable,logistics,1,0,2,damage_lost,1,0,0
+delivery person very cooperative,logistics,2,2,4,fallback_support,2,1,0
+delivery boy do not call me,logistics,0,0,4,support,1,0,1
+address changed delivered old address,logistics,1,1,4,fallback_support,1,0,0
+nil,logistics,1,1,4,fallback_support,1,0,0
+shipment not delivered yet,logistics,1,0,0,delay,0,0,1
+service too good,logistics,2,2,4,fallback_support,2,1,0
+thank you delivery staff,logistics,2,2,4,fallback_support,2,1,0
+delivery boy humble despite pincode issue,logistics,1,0,4,fallback_support,0,0,0
+delivery boy polite hardworking appreciated,logistics,2,2,4,fallback_support,2,1,0
+delivered exactly on time thank you,logistics,2,2,4,fallback_support,2,1,0
+not receive debit card only check book,logistics,1,1,4,fallback_support,1,0,0
+product very impressive marvellous amazing wonderful look it like it very much,logistics,2,2,4,fallback_support,2,1,0
+service fast improve connectivity,logistics,2,2,4,fallback_support,2,1,0
+your delivery boy fraud,logistics,0,0,4,fallback_support,1,4,3
+delivery executive rude unprofessional delivered at wrong location,logistics,0,0,1,wrong_delivery,0,3,2
+staff behaviour cordial no change needed,logistics,2,2,3,behaviour,2,1,0
+they dont deliver parcel,logistics,1,1,4,fallback_support,1,0,0
+very bed behaviour,logistics,1,1,3,behaviour,1,0,0
+address clearly written still issue,logistics,1,0,4,fallback_support,0,0,0
+charan,logistics,1,1,4,fallback_support,1,0,0
+not recieved order which gsk you deliver order,logistics,1,1,4,fallback_support,1,0,0
+delivery agent lied customer not available,logistics,0,0,4,fallback_support,1,0,1
+relationship manager excellent,logistics,2,2,4,fallback_support,2,1,0
+extremely late delivery,logistics,0,0,0,delay,0,3,2
+delivery delayed for a day and google address was wrong total chaos,logistics,0,0,0,delay,0,3,2
+delivery boy avoids entering village,logistics,1,1,4,fallback_support,1,0,0
+No thanks ,logistics,1,2,4,fallback_support,2,1,0
+you did not deliver and asked me to collect not recommending your logistics,logistics,0,0,4,fallback_support,1,0,1
+till time not receive very bad service from blue dart,logistics,1,0,4,fallback_support,0,3,2
+return my order,logistics,1,1,7,refund,1,0,0
+never recommend repeated false updates,logistics,0,0,4,fallback_support,1,0,1
+totally satisfied with delivery person,logistics,2,2,4,fallback_support,2,1,0
+good delivery thank you,logistics,2,2,4,fallback_support,2,1,0
+delivery agent demanded money during delivery,logistics,0,0,4,fallback_support,1,0,1
+parcel not receive me,logistics,1,1,4,fallback_support,1,0,0
+delivery staff arrogant behaviour,logistics,1,1,3,behaviour,1,0,0
+banking kyc process feedback needs improvement,logistics,1,1,6,pricing,1,0,0
+please inform age limit for personal loan,logistics,1,1,4,fallback_support,1,0,0
+didnt receive parcel,logistics,0,0,4,fallback_support,1,0,1
+damaged product,logistics,1,0,2,damage_lost,0,3,3
+parcel delivered to someone else refund requested,logistics,0,0,7,refund,0,4,3
+delivery staff behaviour appreciated,logistics,2,2,3,behaviour,2,1,0
+no proper delivery information no call received,logistics,1,1,3,behaviour,1,0,0
+not good delivery service,logistics,0,0,4,fallback_support,2,1,1
+call before delivery overall excellent,logistics,2,2,4,support,2,1,0
+had to collect product myself,logistics,0,0,4,fallback_support,1,0,1
+free service charge expectation,logistics,1,1,6,pricing,1,0,0
+wrong delivery forced self pickup,logistics,0,0,4,fallback_support,0,3,2
+want to return product,logistics,1,1,7,refund,1,0,0
+delayed delivery long distance,logistics,1,0,0,delay,0,2,2
+excellent job,logistics,2,2,4,fallback_support,2,1,0
+very arrogant staff,logistics,0,0,3,behaviour,1,0,2
+delivery person personally called and delivered package to my home great service,logistics,2,2,4,support,2,1,0
+blue dart company very good,logistics,2,2,4,fallback_support,2,1,0
+staff feedback,logistics,1,1,6,pricing,1,0,0
+today my shipment deliver,logistics,1,1,4,fallback_support,1,0,0
+my shipment not receive,logistics,0,0,4,fallback_support,1,0,1
+wrong delivery attempt updated falsely,logistics,0,0,4,fallback_support,0,3,2
+It shows delivery attempts but no call or visit was made,logistics,0,0,3,behaviour,1,0,2
+fast service by delivery boy,logistics,2,2,4,fallback_support,2,1,0
+delivery person very kind friendly he bring order on time at my desk,logistics,2,2,4,fallback_support,2,1,0
+delivery delayed but finally received today,logistics,2,0,0,delay,0,0,0
+card not delivered false status,logistics,0,0,4,fallback_support,0,3,2
+parcel delivered very late,logistics,0,0,0,delay,0,3,2
+delivery marked without placing order,logistics,1,1,4,fallback_support,1,0,0
+order not received please share delivery contact,logistics,0,0,2,damage_lost,0,4,3
+good customer service,logistics,2,2,4,support,2,1,0
+good person behaviour,logistics,2,2,3,behaviour,2,1,0
+please tell me installment details of my loan,logistics,1,1,4,fallback_support,1,0,0
+delivery person contact number needed,logistics,1,1,4,support,1,0,0
+item not delivered delivery person rude unable locate address,logistics,0,0,3,behaviour,0,3,2
+delivery person delivered to wrong person without otp,logistics,0,0,1,wrong_delivery,0,3,2
+shipment not delivered house identification issue,logistics,0,0,4,fallback_support,0,3,2
+size not perfect colour damage,logistics,0,0,2,damage_lost,1,0,0
+very bed service not fast delivery very bed service man,logistics,0,0,4,fallback_support,2,0,1
+bhaut bekar product or service,logistics,1,1,4,fallback_support,1,0,0
+always prompt service by bablu roy,logistics,2,2,4,fallback_support,2,1,0
+did not get order no call on sunday,logistics,0,0,3,behaviour,1,0,2
+worst service ever delivery boy did not come and submitted fake details,logistics,0,0,4,fallback_support,0,3,2
+please call one hour before delivery,logistics,1,1,4,support,1,0,0
+delivery delayed again marked delivered wrongly,logistics,0,0,0,delay,0,3,2
+delivery too late,logistics,0,0,0,delay,0,3,2
+please change my parcel,logistics,1,1,4,fallback_support,1,0,0
+nice work,logistics,2,2,4,fallback_support,2,1,0
+delivery agent waited patiently great job,logistics,2,2,4,fallback_support,2,1,0
+thank you delivery team good service,logistics,2,2,4,fallback_support,2,1,0
+very good like bluedart service,logistics,2,2,4,fallback_support,2,1,0
+delivery too late cash refund not received,logistics,0,0,2,damage_lost,0,4,3
+follow up after account opening needed,logistics,1,1,4,support,1,2,1
+received wrong parcel,logistics,0,0,4,fallback_support,0,3,2
+not delivered but marked received,logistics,0,0,4,fallback_support,0,3,2
+delivery executive extremely rude,logistics,0,0,3,behaviour,0,3,2
+impeccable timely service builds trust,logistics,2,2,4,fallback_support,2,1,0
+delivery person did not deliver to my location,logistics,0,0,4,fallback_support,1,0,1
+late night delivery unacceptable,logistics,1,0,0,delay,0,0,1
+good servise,logistics,1,2,4,fallback_support,2,1,0
+worst delivery service forced to collect from office,logistics,0,0,4,fallback_support,0,3,2
+staff not proactive need professionalism,logistics,0,0,4,fallback_support,2,0,1
+location awareness minimal call,logistics,1,1,4,support,1,0,0
+keep up,logistics,1,1,4,fallback_support,1,0,0
+delivery without otp confirmation,logistics,1,1,4,fallback_support,1,0,0
+courteous delivery,logistics,1,1,4,fallback_support,2,4,3
+parcel cover torn,logistics,1,1,2,damage_lost,1,0,0
+how to return order,logistics,1,1,7,refund,1,0,0
+my shipment scheduled for november delivery,logistics,1,1,4,fallback_support,1,0,0
+all well,logistics,1,1,4,fallback_support,1,0,0
+delivery on time this time,logistics,1,1,4,fallback_support,2,0,0
+you want call update them thanks,logistics,1,2,4,support,2,1,0
+quick service with phone confirmation,logistics,2,2,4,fallback_support,2,1,0
+wrong item delivered police complaint,logistics,0,0,4,support,0,3,2
+excellent delivery boy good job,logistics,2,2,4,fallback_support,2,1,0
+goo ld,logistics,1,1,4,fallback_support,1,0,0
+nothing special,logistics,1,1,4,fallback_support,1,0,0
+too slow get package,logistics,0,0,4,fallback_support,1,0,1
+delivery agent refused home delivery threatened return,logistics,0,0,7,refund,0,4,3
+delivery delayed no call for reschedule and no doorstep delivery,logistics,0,0,0,delay,0,3,2
+professional behaviour,logistics,2,2,3,behaviour,2,1,0
+very bad service in our city,logistics,0,0,4,fallback_support,0,3,2
+very good keep it up,logistics,2,2,4,fallback_support,2,1,0
+delivery not on time,logistics,1,1,0,delay,1,0,1
+agent should explain document security clearly,logistics,1,2,4,fallback_support,1,0,0
+friendly delivery person,logistics,1,1,4,fallback_support,1,0,0
+delivery experience was good,logistics,2,2,4,fallback_support,2,1,0
+delayed delivery,logistics,1,0,0,delay,0,2,2
+delivery person always delivers promptly with care,logistics,2,2,4,fallback_support,2,1,0
+poor communication before delivery,logistics,1,1,4,fallback_support,0,0,0
+very bad service did not receive docket,logistics,0,0,2,damage_lost,0,4,3
+this delivery boy should fire by blue dart for give someone elses atm someone else we receive message contact u he say that there no parcel of mine there,logistics,1,1,4,support,1,0,0
+fake item delivered,logistics,0,0,4,fallback_support,0,3,2
+not doorstep service,logistics,0,0,4,fallback_support,1,0,1
+delivery on time with tracking updates,logistics,2,2,5,tracking,1,0,0
+fake product,logistics,0,0,4,fallback_support,0,3,2
+reliable delivery personnel,logistics,2,2,4,fallback_support,2,1,0
+very good job by delivery executive,logistics,2,2,4,fallback_support,2,1,0
+delivery boy ganesh verma very good behaviour,logistics,2,2,3,behaviour,2,1,0
+mujhe return karna hai,logistics,1,1,7,refund,1,0,0
+well mannered,logistics,1,1,4,fallback_support,1,0,0

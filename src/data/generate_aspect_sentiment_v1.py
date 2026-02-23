@@ -14,8 +14,8 @@ import re
 # PATHS
 # ------------------------------------------------------------
 
-INPUT_PATH  = r"D:/model_bert_copy/data/gold/cx_phase3/val.csv"
-OUTPUT_PATH = r"D:/model_bert_copy/data/gold/cx_phase4/val_with_aspect_sentiment.csv"
+INPUT_PATH  = r"D:/model_bert_copy/data/gold/multitask_raw_data/train_multi_aspect_2step.csv"
+OUTPUT_PATH = r"D:/model_bert_copy/data/gold/multitask_raw_data/train_multi_aspect_3step.csv"
 
 # ------------------------------------------------------------
 # KEYWORD BANKS

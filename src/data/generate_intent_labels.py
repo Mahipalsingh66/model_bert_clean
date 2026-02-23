@@ -2,7 +2,7 @@ import pandas as pd
 import re
 
 # Load your existing train.csv
-df = pd.read_csv("D:/model_bert_copy/data/gold/v2.3_multitask/val.csv")
+df = pd.read_csv("data/gold/multitask_raw_data/train.csv")
 
 def assign_intent(text, sentiment):
     t = text.lower()
@@ -43,7 +43,7 @@ df["customer_intent"] = df.apply(
 out_df = df[["text", "sentiment", "customer_intent"]]
 
 # Save new multitask dataset
-out_path = "D:/model_bert_copy/data/gold/v2.3_multitask/val_multi.csv"
+out_path = "data/gold/multitask_raw_data/train_multi_intent_1step.csv"
 out_df.to_csv(out_path, index=False, encoding="utf-8")
 
 print("✅ Multitask dataset created:", out_path)

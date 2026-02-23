@@ -1,8 +1,8 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-INPUT_PATH = "data/processed/cleaned.csv"
-OUTPUT_DIR = "data/processed"
+INPUT_PATH = r"D:/model_bert_copy/data/gold/multitask_raw_data/Book2_cleand.csv"
+OUTPUT_DIR = "D:/model_bert_copy/data/gold/multitask_raw_data"
 
 def main():
     df = pd.read_csv(INPUT_PATH)
