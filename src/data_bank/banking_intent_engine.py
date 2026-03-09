@@ -11,8 +11,8 @@ import re
 # PATHS
 # ------------------------------------------------------------
 
-INPUT_PATH  = r"D:/bert_data/Banking_data/bank_train_with_aspect_2.csv"
-OUTPUT_PATH = r"D:/bert_data/Banking_data/banking_with_intent.csv"
+INPUT_PATH  = r"D:\bert_data\Banking_data\bank_train_with_aspect+aspect sentiment+emotions+priority.csv"
+OUTPUT_PATH = r"D:\bert_data\Banking_data\bank_train_with_aspect+aspect sentiment+emotions+priority+intent.csv"
 
 # ------------------------------------------------------------
 # KEYWORD BANK — BANKING (EN + HINGLISH)

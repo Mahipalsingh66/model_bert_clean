@@ -20,6 +20,7 @@
 # 11 = Offers
 # 12 = Security
 # 13 = General
+#14 = Others (Fallback)
 # ============================================================
 
 import pandas as pd

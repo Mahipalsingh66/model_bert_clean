@@ -1,0 +1,341 @@
+text,industry,sentiment,customer_intent,primary_aspect,aspect_sentiment,emotion,priority
+excellent tracking sunday delivery,logistics,2,3,5,1,1,0
+card not received,logistics,1,5,2,0,0,0
+do not receive item,logistics,0,1,4,1,0,1
+not receive at home collect in office twice,logistics,1,5,4,1,0,0
+The delivery person is very rude and doesn't know how to talk respectfully. He thinks just calling someone sir or madam is being respectful.,logistics,0,1,3,0,4,2
+definitely happy with blue dart service,logistics,2,2,4,2,1,0
+empty fake parcel received,logistics,1,5,4,0,0,0
+very good service by manager and employees,logistics,2,2,4,2,1,0
+keep it up,logistics,2,2,4,2,1,0
+good,logistics,2,2,4,2,1,0
+parcel not received but status shows delivered,logistics,1,3,2,0,2,0
+delivery agent refused home delivery asked for self pickup,logistics,0,1,4,1,0,1
+delivery person phone number required for tracking,logistics,1,3,5,1,0,1
+please dont make this compulsory,logistics,1,5,4,1,0,0
+inside glass break,logistics,1,5,4,1,0,0
+toxic delivery behaviour forced pickup from hub,logistics,0,1,4,1,0,1
+delivery refused without call had to go hub,logistics,1,5,4,1,0,0
+had to visit office due to false delivery claims,logistics,0,1,4,1,0,1
+timely,logistics,2,2,4,2,1,0
+share contact details for coordination,logistics,1,5,4,1,2,0
+include location name,logistics,1,5,4,1,0,0
+very good service honest sincere delivery boys,logistics,2,2,4,2,1,0
+deliver on time,logistics,1,2,4,2,0,0
+delivery service extremely poor no parcel received,logistics,0,1,4,0,4,2
+parcel never delivered had to collect from office,logistics,0,1,4,1,0,1
+delivery person asked for extra money,logistics,1,5,4,1,0,0
+delivery man told otp time,logistics,1,5,4,1,0,0
+product delivered damaged and no return option provided,logistics,0,1,2,0,5,3
+package not delivered but marked delivered,logistics,1,0,4,0,0,0
+unreliable service frequent delays,logistics,0,0,0,0,4,2
+hand over wrong parcel which doesnt belong me,logistics,0,1,4,0,4,2
+delivery boy very decent soft spoken,logistics,2,2,4,2,1,0
+high value parcel delivered without OTP verification,logistics,1,5,4,1,0,0
+delivery partner patience appreciated,logistics,2,2,4,2,1,0
+poor quality,logistics,0,1,4,0,4,2
+improve day by day,logistics,1,5,4,1,0,0
+because my product miss package not good,logistics,0,1,4,2,1,1
+wrong dispatch,logistics,0,1,4,0,4,2
+too much delay in local delivery,logistics,0,0,0,0,4,2
+delivery staff not fit,logistics,0,1,4,1,0,1
+I very appreciate shopping this blue dart ?,logistics,2,2,4,2,1,0
+delivery person lazy did not bring documents upstairs,logistics,0,1,4,1,0,1
+delivery delayed despite out for delivery status bank related shipment,logistics,1,0,0,0,3,2
+Ys,logistics,1,5,4,1,0,0
+delivered wrong item forced payment fraud,logistics,0,1,4,0,5,3
+Im trying to open minimum 10000 balances account but your system open wrong account,logistics,0,1,4,0,4,2
+very late service,logistics,0,0,0,0,4,2
+delivery guy ensured document delivered on time,logistics,1,2,4,2,0,0
+delivery partner charged extra money unfair,logistics,0,1,6,1,0,1
+delivery not done but marked delivered,logistics,1,5,4,1,0,0
+very poor overpriced service,logistics,0,1,4,0,4,2
+very nice experience despite small delay,logistics,2,0,0,0,0,0
+this package not delivered,logistics,0,0,4,0,4,2
+credit card not received,logistics,1,5,2,0,0,0
+damaged product received wrong piece,logistics,0,1,2,0,5,3
+poor delivery service despite assurance,logistics,0,1,4,0,4,2
+always good service,logistics,2,2,4,2,1,0
+cooperative delivery as per customer,logistics,1,5,4,1,0,0
+v good service,logistics,2,2,4,2,1,0
+worthless product feedback,logistics,1,5,4,1,0,0
+actually order place sun glass for fastrack company,logistics,1,3,5,1,0,1
+delivered before time,logistics,1,5,4,1,0,0
+good service polite delivery person,logistics,2,2,4,2,1,0
+best prompt service,logistics,2,2,4,2,1,0
+delivery exceeded expectations,logistics,2,2,4,2,1,0
+there should delivery time slot of hour,logistics,1,5,4,1,0,0
+not happy,logistics,0,1,4,2,1,1
+status showing delivered but product not received and no call made,logistics,0,1,2,0,5,3
+order return requested,logistics,1,5,4,1,0,0
+refund request for product usage issue,logistics,1,1,7,0,0,0
+rude person encountered,logistics,0,1,3,0,4,2
+very very bad service,logistics,0,1,4,0,4,2
+too much delay false update,logistics,0,0,0,0,4,2
+timely delivery,logistics,2,2,4,2,1,0
+you already great,logistics,2,2,4,2,1,0
+client not informed delivery falsely marked received,logistics,1,5,4,1,0,0
+no one can beat your service keep it up,logistics,1,6,4,1,0,0
+delivery staff aware of location seamless delivery,logistics,2,2,4,2,1,0
+poor fabric quality,logistics,0,1,4,0,4,2
+false delivery status consignee not available,logistics,0,1,4,1,2,1
+false delivery attempts marked repeatedly,logistics,0,1,4,1,0,1
+delivery person did not come home asked to collect parcel bad service,logistics,0,1,4,0,4,2
+fuck no,logistics,0,1,4,1,0,1
+parcel never delivered always self pickup required,logistics,0,1,4,1,0,1
+account opening process very fast app and staff excellent,logistics,2,2,4,2,1,0
+bad service pending package abusive staff,logistics,0,1,4,0,4,2
+very bad service on head office also delivery boy miss behavior on telephone,logistics,0,1,4,0,4,2
+need to return product very worst quality,logistics,0,1,4,0,4,2
+satisfactory service happy,logistics,2,2,4,2,1,0
+delivered on time,logistics,2,2,4,2,1,0
+parcel not delivered but marked delivered shoddy service no agent contact,logistics,0,0,4,0,4,2
+call at least hour before delivery,logistics,1,5,4,1,0,0
+very bad service recommend not use bluedart at all,logistics,0,1,4,0,4,2
+delivery executive did not call first day restricted area excuse had to self collect,logistics,1,5,3,1,5,3
+decent polite,logistics,1,5,4,2,0,0
+amazing timely delivery,logistics,2,2,4,2,1,0
+service experience,logistics,1,5,4,1,0,0
+stop scamming customers via loan disbursal,logistics,0,1,4,1,5,3
+laptop damaged,logistics,0,1,2,0,5,3
+ensure no double payment collected,logistics,1,5,4,1,0,0
+incorrect address remark had to self collect,logistics,1,5,4,0,0,0
+Best experience I have had till date,logistics,2,2,4,2,1,0
+exchange requested size issue,logistics,1,1,4,0,0,0
+very excellent service,logistics,2,2,4,2,1,0
+too much delay in service,logistics,0,0,0,0,4,2
+not at home notice,logistics,1,5,4,1,0,0
+incorrect order delivered,logistics,0,1,4,0,4,2
+return requested empty box received,logistics,1,5,2,1,0,0
+did not receive delivery yet,logistics,0,1,4,1,0,1
+fake delivery attempt noted,logistics,0,1,4,0,4,2
+on time delivery but neutral feedback,logistics,1,2,4,2,0,0
+very grateful for service,logistics,2,2,4,2,1,0
+offer promised but missing item,logistics,0,1,2,0,5,3
+consignment not deliver at door step delay,logistics,0,0,0,0,4,2
+delivery person good,logistics,2,2,4,2,1,0
+Amazing delivery agent polite respectful delivered to senior citizen,logistics,2,2,4,2,1,0
+courier guy did not call and product handed to unknown person,logistics,0,1,3,1,0,2
+single call missed delivery,logistics,1,5,4,1,0,0
+delay even after out for delivery message,logistics,0,0,0,0,4,2
+delivery boy good but company service poor,logistics,1,2,4,0,1,0
+professional handling,logistics,1,5,4,2,0,0
+scammed,logistics,1,1,4,1,5,3
+delivery of item ahead of schedule,logistics,1,5,4,1,0,0
+package marked delivered incorrectly,logistics,1,5,4,0,0,0
+your service very good thank you,logistics,2,2,4,2,1,0
+good hai but aap log ji din delivery ka date hota hai usi din delivery kiya karo,logistics,1,2,4,2,1,0
+wrong size delivered,logistics,1,5,4,0,0,0
+order marked delivered but not received fraudulent update,logistics,0,1,2,0,5,3
+nice service,logistics,1,2,4,2,0,0
+very poor logistics service,logistics,0,1,4,0,4,2
+delivery staff cooperative contacted before delivery,logistics,1,5,4,1,0,0
+good service by delivery agent,logistics,2,2,4,2,1,0
+shiva delivers package promptly with care,logistics,2,2,4,2,1,0
+delivery authentication otp policy suggestion,logistics,1,5,4,1,0,0
+false delivery status shown,logistics,0,1,4,1,2,1
+fast service,logistics,1,5,4,2,0,0
+item not delivered but marked delivered,logistics,1,0,4,0,0,0
+overall ok experience,logistics,1,5,4,1,2,0
+no complaint,logistics,1,1,4,0,4,2
+third party delivery without consent,logistics,1,5,4,1,0,0
+satisfied overall,logistics,2,2,4,2,1,0
+parcel not received status marked delivered,logistics,0,1,2,0,5,3
+marked delivered without contact,logistics,0,1,4,1,0,1
+appreciate your service,logistics,2,2,4,2,1,0
+blue dart symble of reliability promptness u keep it up,logistics,2,2,4,2,1,0
+pic aya but order size small nahi aya,logistics,1,5,4,1,0,0
+other come other dont do froud,logistics,1,5,4,1,0,0
+item not received,logistics,0,1,2,0,5,3
+parcel given to watchman,logistics,1,5,4,1,0,0
+order delayed for almost a week,logistics,0,0,0,0,4,2
+service poor lazy staff,logistics,1,5,4,0,0,0
+order marked undelivered falsely though family present,logistics,1,5,4,1,0,0
+week delay delivery,logistics,1,0,0,0,3,2
+thanks delivery boy,logistics,2,2,4,2,1,0
+not my product delivered,logistics,0,1,4,1,0,1
+delivery updates received on time,logistics,2,3,4,2,1,0
+smooth delivery polite behaviour,logistics,1,2,4,2,1,0
+fake attempts delayed pickup fraud behaviour,logistics,0,0,0,0,5,3
+nice service,banking,2,2,5,2,6,0
+all is good staff is good service is fine,banking,2,2,5,2,6,0
+need proper application form and need to cross check by your team account holder details befor opening account in onlineoffline,banking,1,3,3,1,4,1
+good process and features,banking,2,2,13,1,4,0
+idfc first bank ka app very smooth,banking,2,2,3,2,6,0
+pin card atm apply online,banking,2,3,7,1,4,0
+bank khate ki jama rashi kam rakhen,banking,1,5,13,1,4,0
+my interaction with your branch manager rahul was really good from a customer experience point,banking,2,2,9,2,6,0
+clearly maintain this is not zero account this bank is zero free chargers,banking,1,5,1,1,4,0
+i have relationship with sbi icici hdfc but i must say i liked everything about idfc that i will rate i higher than all other banks extremely easy to use mobile app keep going bring new technologies,banking,2,3,3,2,6,0
+idfc bank account kholne me idfc bank ke employees ne mujhe bahut hi achche se or bahut hi aasaani se idfc bank me account kholne me meri help ki,banking,2,6,13,1,4,0
+everything is perfect,banking,2,6,13,1,4,0
+please open some branches of your bank in rural areas,banking,1,5,9,1,4,1
+in your k account could be better debit card like first select debit card,banking,1,5,7,1,4,0
+initially the direct link for video kyc was not working ive to relogin in order to complete my kyc,banking,0,1,13,0,4,0
+superb experience,banking,2,6,13,1,4,0
+international and domestic lounge access without spending limitations of credit card will have better for us,banking,1,0,2,0,4,0
+the loan was transferred idfc first bank which is compulsory saving account for installment cut is a little strange,banking,0,1,2,0,1,3
+aapki vikas puri branch ke employee shayad nitin naam hai bahut badtameez hain,banking,0,1,9,0,0,2
+excellent service,banking,2,2,5,2,5,0
+mobile number could not be added in accounts,banking,0,1,13,1,4,0
+mr mohan annanagar deputy manager did excellent job with good follow up tii opening sa related activities,banking,2,2,13,0,5,0
+can you decrease rsfor account opening,banking,1,5,13,1,4,0
+free cibil lifetime free demat amc more rewards redemption options,banking,1,5,11,1,4,0
+certain parts of kyc can be automated and picked up from central database,banking,1,5,13,1,4,0
+account opening service is excellent keep it up,banking,2,2,13,1,5,0
+great experience banking from the comforts of home has become a truth,banking,2,2,5,2,5,0
+single serial no for single request id that could be tracked through the app,banking,1,5,3,1,4,1
+st tell me reason to why i am unable to do transaction,banking,0,1,13,1,4,0
+please change my account maintenance balance,banking,1,5,13,1,4,0
+a moment of joyful and happiness with your bank management,banking,2,6,3,2,6,0
+shagun akash juhu branch did an excellent job,banking,2,2,9,2,5,0
+ac opened days completed till today not received atm card and no communication,banking,0,1,7,0,1,3
+good job idfc bank,banking,2,2,13,1,4,0
+minimum balance should be reduced to,banking,1,5,8,1,4,0
+aadhar linked mobile attached with account provide option to add another mobile number,banking,1,5,13,1,4,0
+very good and faster resolution,banking,2,2,5,2,6,0
+aap doesnt work in lower android device,banking,0,1,10,0,1,3
+add online joint account facility,banking,1,5,13,1,4,0
+absolutely nothing,banking,2,6,13,1,4,0
+account number close karna hai,banking,0,1,13,1,4,0
+account open karaya jisase bahut achha vyavahar aur sari bate bahut saral aur spasht shabdo me batayi,banking,2,6,13,1,4,0
+acha hai bank,banking,2,6,13,1,4,0
+achha network or chalne me asani,banking,2,6,13,1,4,0
+my branch is km away from where i live what if i need to visit to bank for cheque and any other reasons i will have to travel to km from my house thats problematic and inconvenience for me also it was not specified that i am getting branch that far from my house otherwise i wouldnt have opened the account,banking,0,1,9,0,4,0
+adding option to open select and wealth saving account online would be more beneficial and time saving for customers,banking,1,5,13,1,4,0
+welcome kit not received,banking,0,1,13,0,4,0
+if you think that you will not face any problem from any bank in your life then open an account in idfc first they provide very good service,banking,2,1,5,0,6,0
+plzz improve online ekyc process,banking,1,3,13,1,4,0
+everything was perfect the sales executive was very kind and help me in every process which saves a lot of time required to open an accountoverall it was a good experience,banking,2,2,13,1,4,0
+excellent just keep up the good work,banking,2,2,13,1,5,0
+its should be in one attempt,banking,1,5,13,1,4,0
+addition of nominee could not happen initially,banking,0,1,3,1,4,0
+the executive told me to open a zero balance account after opening i got a message that your average balance is rs so i want to close this account without using your saving account services,banking,0,1,8,1,4,0
+very nice service jai hind,banking,2,2,5,2,6,0
+address change process please make it fast and live,banking,1,3,13,1,4,0
+very much time consuming not receive checkbook and debit card how can i operate the bank account six days enough time to send checkbook and debit card not received till now,banking,0,1,7,0,4,3
+agent asked to transfer the amount to the newly opened sales account through upi i immediately transferred and it didnt get reflected and was reversed next day very unsatisfied,banking,0,1,5,2,6,0
+things i felt good immediate response from customer service easy to clarify my doubts overall good banking features,banking,2,2,13,1,4,0
+agent beabiher very bad,banking,0,1,13,0,4,0
+agent ka call nhi aaya,banking,0,1,13,1,4,0
+agent needs to clearly explain that all documents that he is collecting is secure,banking,1,5,13,1,4,0
+there is nothing to say account opening is smooth and excellent,banking,2,2,13,1,5,0
+minimum balance is too high it is k lesser than that could be great other features are great,banking,1,5,8,1,5,0
+agent was very polite and humble guided me to everything very politely,banking,2,2,13,1,4,0
+please keep the processes customer friendly as was the case in opening the account,banking,1,5,13,1,4,0
+lack of knowledge of the banking services provided by the bank itself hence handling of customer are not at requirements,banking,0,1,13,1,4,0
+i have still not received cheque book in welcome kit,banking,0,0,13,0,4,0
+agents are not clear guidelines so i am not satisfied,banking,0,1,5,2,6,0
+airconditioner was not working properly,banking,0,1,13,0,4,0
+giving a handout with all the types of account and the benefits of each account would have been still better,banking,1,5,11,1,4,0
+all false promises lies and asking for otp over phone your relationship managers are not reliable at all,banking,0,1,13,1,4,0
+nothing else bank representatives were humble and were ready to open account without much hassle they were prompt and timely updates were given during account opening process,banking,2,3,13,1,4,0
+make this account zero balance,banking,1,5,8,1,4,0
+i tried video kyc but its not done it is saying i am using some proxy server and try after sometime but i tried many time and its been week that i am trying but waste,banking,0,1,13,1,4,0
+your promote yourself as online banking but that doesnt work branch doesnt allow us to open k mab account almost convinces us for k mab account i wanted a joint account but they made it single and the nd partner is not yet added week has passed i would have choosen other bank over this pathetic services,banking,0,1,11,0,0,2
+account opening form submitted at branch on th june account opened at back office on th june cheque book received on th june back office service very poor,banking,0,1,9,0,4,0
+i am very well satisfied with the services provided by ur bank especially nagendra chaitanya ajay and vinod helped us a lot starting from account opening till the loan disbursement,banking,2,2,2,1,6,0
+your credit card verification team seems to be incompetent they were too lazy to verify my office address and as a result my application got rejected,banking,0,1,2,0,1,3
+my experience is good and overall process of account opening is very easy reliable understandable,banking,2,2,13,1,4,0
+shubham is very good person hes way of talking and approch was awesome,banking,2,2,3,2,5,0
+rm not responsive kyc not working,banking,0,1,13,0,4,0
+it was a great experience,banking,2,2,5,2,5,0
+as of now everything is seamless thank you,banking,2,2,5,2,6,0
+kyc agent very helpful in chinchwad branch,banking,2,2,9,2,6,0
+nothing needs to be improved you people are doing great job by providing such easy process of account opening believe me i have experienced many private and public sector banks account opening process but the smooth process here i experienced was the first of its kind in my life thank you idfc first,banking,2,2,5,2,5,0
+everything was good except the kyc during pm was terrible call got disconnected times i couldnt complete tried after pm it was smooth also one more issue was with blue dart delivery guys attitude is too much they are arrogant they have sent back my debit card now i have to place the request again,banking,0,1,7,0,1,3
+happy with the service provided by the bank executive account opening process was smooth,banking,2,2,3,2,5,0
+all services option are available but every time i need to find this options which is applicable to me,banking,1,5,3,1,4,1
+rupay debit card was primary reason for opening account that is still not receiveddespite daily reminder to chembur branch person who opened the account please get it done or arrange call back,banking,0,0,2,0,1,3
+best bank i have ever opend my bank account into because you guys give the checkbook and atm as soon as we open account this is the best thing and there was no delay in opening upi because i can set my card pin in my banking thats a great feature thank you for you service and the best part this is all free that excites the people most,banking,2,0,7,0,5,0
+all the process was very easy and real quick,banking,2,3,13,1,4,0
+in app there is no provision to update address or change address bank must be instructed to your dispatching parcels agent ie bluedart if parcel not delivered then return to home branch not mumbai,banking,0,1,3,1,4,0
+heramb is the best rm,banking,2,6,13,1,4,0
+already improved than others so keep it up,banking,2,6,13,1,4,0
+thanku aruna maam and piyush for your prompt service and immediate action it was so easy where i was completely happy for ur service rendered with proper knowledge of yours,banking,2,2,3,2,5,0
+the arrival of debit card welcome kit arrival is taking time it has been week since i had opened a savings account but didnt yet received welcome kit or debit card i was told that it would take working days to arrive,banking,0,0,7,0,1,3
+account opening process is good provide more account types option through online,banking,1,3,13,1,4,0
+please give some opportunity to open zero balance account with zero maintenance,banking,1,5,8,1,4,0
+not received cheque book,banking,0,1,13,0,4,0
+already submitted a detailed note in the earlier page to reduce turn around please give them a complete sales training familiarising them with all account process and little bit of exposure to entire banking functions,banking,1,3,13,1,4,0
+really loved the experience about opening the account right from kyc verification issuance of welcome kit and applying for credit card it was swift and seamless experience,banking,2,6,2,1,4,0
+i dont wanted to open an account but ended up opening an account because of your system i wanted only loan not account that too mim balance if i have money then why should go for loan and end of the day i didt got my loan also pl dont fool people by opening an account in the name of loan i will never ever recommend idfc to anybody,banking,0,1,2,0,1,3
+enable video kyc process,banking,1,3,13,1,4,0
+i visited kothapet branch hyderabad with a request to convert my savings account to salary account the staff over there guided me patiently with suitable information like what documents should be submitted im pleased with the staff at the branch and the mobile banking app is very quick and amazing and i can pay directly without using other sources like phone pay or google pay,banking,2,1,3,0,5,0
+simplifying kyc may increase completing count and reduce the time taken for the same,banking,1,5,13,1,4,0
+to carry the atm card safely provide an atm card envelope in the welcome kit,banking,1,5,7,1,4,0
+limit for online and offline should be calculate by system by itself we should not assign it,banking,1,3,13,0,4,0
+any welcome offer could have been better atleast a sovereign,banking,1,5,11,1,4,0
+updating the balance on whatsapp or message on daily basis,banking,1,5,3,1,4,1
+apke exicutive v bank ki sarvis behtar hai seving me milne wala entres bhi achchha hai khata kholne me asani hui,banking,2,6,13,1,4,0
+rm not responsive kyc not working,banking,0,1,13,0,4,0
+the experience of opening a savings account with idfc first bank was excellent the process was smooth quick and userfriendly the staff was supportive and guided me well through each step i really appreciate the digital options and the transparency throughout honestly i cant think of anything that needs improvementit was a seamless experience,banking,2,2,3,2,5,0
+article jcin delivered on to rakhi tan please share delivery feedback at httpswwwindiapostgovinvaspagesfraspxtnjcin not but article nojc in not delivered today,banking,0,1,1,0,1,3
+as of now there is nothing more to add the entire process of onboarding a new customer is organised and smooth the steps involved are not cumbersome and only basic information is being sought therefore the entire process is short and precise,banking,2,2,13,1,4,0
+i am an existing idfc first bank select credit card customer and i got an option on my idfc first bank app to open this zero balance savings account with auto pay option enabled for credit card repayment the opening of account was very quick and smooth however when i received the welcome kit it only contained my debit card while the covering letter mentioned that itll contain a debit card and cheque book id request your concerned team to clearly mention what all actually come with the welcome kit along with a check list for future new customers of your bank,banking,1,3,2,1,4,0
+average balance,banking,1,5,8,1,4,0
+ask your official to pick call even i dont have time to talk other than important things can you call me,banking,0,1,13,1,4,0
+assignment of relationship manager,banking,1,5,13,1,4,0
+experience is good but i want to suggest to bank employees that please always ready for customer services,banking,1,5,13,1,4,0
+at the time validation the agent does not listen properly as he was in hurry it was in my case not for everyone,banking,0,1,13,1,4,0
+atleast provide passbook,banking,1,5,13,1,4,0
+after account opening i needed to know my nearest branch and contact number by email to know further details because i did with customer care service with so many options its cumbersomic process,banking,1,3,6,1,4,1
+atm card passbook,banking,1,5,7,1,4,0
+the interest rates are good which was the only reason for opening the account,banking,2,2,10,1,4,0
+audio level was poor,banking,0,1,13,0,4,0
+avoid miss selling,banking,1,5,13,1,4,0
+i am from srinagar and agent misguided me and opened my account in jammu city which is useless for me till date my welcome kit is wandering in jammu city and i receive messages that you were not available to receive kit,banking,0,1,13,1,4,0
+along with the process of opening an account being easy and secure the facilities that should be provided should be provided on time and despite having an old relationship with me i have not received any good credit card offer till now,banking,1,1,2,0,4,0
+when i visit city centre branch of gwalior i wanted a future first student saving account but the employee working there tells that that dont offer such saving account but they offer pratham account so i unfortunately have to open the pratham account but i wish i could get future first student saving account,banking,0,1,11,1,4,0
+account opening process can be improved instead of bank informing me of the way out for the issue which was resulted due to poor account opening process it was me the client how had to call the customer care and narrate the whole issue to them and then still wait for the end resolution,banking,0,1,6,0,4,0
+bad falied loans,banking,0,1,2,0,1,3
+ready to use joining kit if possible to handover in the time of account opening as per customer requirements,banking,1,5,13,1,4,0
+the people from the bank are very supportive the agent came multiple times to my office to get my work done i like this aspect he even bought one manager to make myself understand about the benefits and perks having said that i was little disappointed with forex card process due to miscommunication,banking,1,3,3,1,1,2
+video kyc error,banking,0,1,13,0,4,0
+i opened minor savings account even parent account was already active it took almost a week to finish the opening of account,banking,0,1,13,1,4,0
+very poor knowledge and expertise on account opening procedure,banking,0,1,13,0,4,0
+overall good fast experience and happy vth opening savings account vth out any issues thank u for the team idfc,banking,2,1,3,0,5,0
+bakwaas bank,banking,0,1,13,1,0,2
+how can i receive my debit card,banking,1,3,7,1,4,0
+the bank will have to open more branches the branch is km away from my address although there is an hdfc branch at my address but not an idfc branch,banking,0,1,9,1,4,0
+excellent services wanted to open account for saving purpose only where my fund lying and there is no dr card charges cash charges and other services free so thats good as other private sector banks also charges for this for k account,banking,2,2,1,1,5,0
+bank is expected to provide the details for customer to feel safe to invest and clear understanding of roi without any ambiguity,banking,1,3,1,1,4,0
+bank ki aap upi or bank ka interest sahi laga,banking,2,3,13,1,4,0
+bankers get open account by telling nonsense promises n unethical practices dont go for idfc bank account,banking,0,1,13,1,4,0
+online access and banking apps is nice,banking,2,2,3,2,6,0
+kiny prlvide minimum amb maintance to rs,banking,1,5,13,1,4,0
+najafgarh m bank branch hona,banking,1,5,9,1,4,1
+ease of video kyc and all the features of instant processing thank you so much for your team efforts rejoice and good luck,banking,2,2,5,2,6,0
+be honest nd fair in your communication dont commit some thing which ur bankcant do,banking,1,5,13,1,4,0
+be more transparent i want to know how to close my account im not doing anything and let the account die by itself,banking,0,1,13,1,4,0
+be transparent in your offers else people will lose confidence in the name of your bank,banking,1,5,11,1,4,0
+be transparent with customers i was told that while opening the ac you can mention the address i did same but still it did not took that address will never use idfc ac,banking,0,1,13,1,4,0
+training,banking,1,5,13,1,4,0
+it would be nice if there was a option for demat account,banking,1,5,13,1,4,0
+i maintain almost crores of my family fund in sbfd but credit card doesnot provide lounge access as minimum transaction is stipullated very unfair treatment why should i maintain so much fund,banking,0,1,2,0,1,3
+be truthful to your customers and respect their privacy by no not calling them repeatedly just to reac your targets,banking,1,5,13,1,4,0
+better communication from idfc,banking,1,5,13,1,4,0
+better than expected,banking,2,6,13,1,4,0
+little app menu modification,banking,1,5,3,1,4,1
+again behaviour of the branch managers and the customer ask for some clarification about the bank name board at dharmapuri branch,banking,0,1,9,1,4,0
+build trust do not cheat customers,banking,1,6,13,1,4,0
+need option to add current address to deliver debit card and cheque book for those who have a current address other than permanent address,banking,1,5,7,1,4,0
+the working style of the bank employee is good very simple language and less patience,banking,1,5,13,1,4,0
+my talk for the family accounts as first wealth account and amb for all account altogether lakh one account opend as first wealth and as normal account one account in process and process of remaining yet to start now branch official calling us and make presuure to deposit lakh first to move normal account in first wealth and use harsh word relationship manager blamed me for lying and branch head also pressured for higher deposits,banking,0,0,9,1,4,0
+change your agent will help the growth,banking,1,5,13,1,4,0
+your bank is working very well and the interest it is giving on saving is also very good and would encourage,banking,2,2,5,2,6,0
+close this account as soon as possiblr,banking,0,1,13,1,4,0
+close your bank,banking,0,1,13,1,4,0
+improve yr staff ability,banking,1,5,13,1,4,0
+so far so good what you are doing with savings accounts itself is a blessing for customers like me i wish you immense success thank you,banking,2,2,5,2,6,0
+muje ek problem hai sird kyc nahi ho raha hai,banking,0,1,13,0,4,0
+if any particular address is not authorised to take a loan why should be the bank acnt on that address if loan is not possible,banking,1,3,2,1,4,0
+communicate information clearly,banking,1,3,13,1,4,0
+hamare idfc first bank mein hamara abhi tak kyc nahin hua,banking,0,1,13,1,4,0
+mrthohid has good knowledge about accounts in banking sector felt so happy and good communication good experience overall satisfied,banking,2,2,3,2,5,0
+communication is fabulous,banking,2,6,13,1,4,0
+courier boy scammer hai account kit address pe delivery deta nahi,banking,0,1,12,0,2,3
+courier se documents bhejo taki hand to hand receive ho paye,banking,1,5,13,1,4,0
+my kyc for the nre account was verified and i received the new account kit however the account remained frozen for another days and the debit card took an additional days to activate it would be helpful if such delays were reduced or at least communicated more clearly in advance also jp attestation info was not clearly mentioned on the website,banking,1,0,7,0,4,0
+the behavior of the bank employees is good and the relationship managers are also goodnatured they treat you like family,banking,2,2,13,1,4,0
+customer care contact number and proper knowledge to employees,banking,1,5,6,1,4,1
